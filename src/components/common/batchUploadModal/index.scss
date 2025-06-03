@@ -1,0 +1,57 @@
+.batch-upload-modal {
+  .dpl-alert-message{
+    font-size: 12px;
+    color: #333333;
+  }
+  .dpl-alert-warm{
+    padding-right: 10px;
+  }
+  .dpl-modal-body{
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  .button-box {
+    margin-bottom: 26px;
+    padding-left: 40px;
+  }
+
+  .result-content{
+    padding:0 40px;
+    margin-bottom: 26px;
+  }
+  .task-loading {
+    background: #FFFFFF;
+    border: 1px solid #D1D3D8;
+    border-radius: 3px;
+    display: flex;
+    padding: 20px 20px 50px 20px;
+
+    .icon-box {
+      img {
+        width: 64px;
+        height: 64px;
+        position: relative;
+        top: -14px;
+      }
+    }
+
+    .des {
+      margin-left: 16px;
+      position: relative;
+      left: -10px;
+
+      div {
+        font-size: 16px;
+        color: #333333;
+        line-height: 18px;
+      }
+
+      p {
+        font-size: 14px;
+        color: #666666;
+        line-height: 22px;
+        margin-top: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.warnning-config-modify {
+  padding: 32px;
+  background-color: #fff;
+  height: 100%;
+  overflow-y: auto;
+
+  .warnning-config-modify-form {
+    > .dpl-row {
+      margin-top: 16px;
+    }
+  }
+
+  .page-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    margin-left: 16px;
+  }
+
+  .box-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    margin-left: 32px;
+  }
+
+  .btn-group {
+    float: right;
+
+    .dpl-btn {
+      margin-right: 16px;
+    }
+  }
+
+  .warn-period {
+    .dpl-select-selection {
+      &::after {
+        content: "\5206\949f";
+        position: absolute;
+        right: -40px;
+        top: 0;
+      }
+    }
+  }
+}

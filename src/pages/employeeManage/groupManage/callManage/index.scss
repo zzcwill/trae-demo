@@ -1,0 +1,93 @@
+.call-manage-box {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+
+  .search-box {
+    margin: 16px;
+    background: #fff;
+    padding: 20px 40px 20px 0;
+
+    .search-button-box {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .search-button {
+      display: inline-block;
+    }
+
+    .line-box {
+      display: inline-block;
+      width: 20px;
+    }
+  }
+
+  .table-box {
+    background: #fff;
+    padding: 16px 20px;
+
+    .table-btn {
+      margin-bottom: 12px;
+      display: flex;
+    }
+
+    .pagination-wrap {
+      margin-top: 10px;
+
+      .dpl-pagination-wrapper {
+        float: none;
+      }
+    }
+
+    .table-option-box {
+      .option-button {
+        padding: 0 5px;
+        font-family: MicrosoftYaHei;
+        font-size: 14px;
+        line-height: 20px;
+        color: #2c85d9;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .pagination-box {
+    height: 50px;
+    width: 100%;
+
+    .dpl-pagination-wrapper {
+      line-height: 40px;
+
+      .dpl-pagination-total-text {
+        line-height: 40px;
+      }
+    }
+
+    .dpl-pagination-jump-next {
+      &::after {
+        content: unset;
+      }
+    }
+
+    .dpl-pagination-jump-prev {
+      &::after {
+        content: unset;
+      }
+    }
+  }
+}
+
+.import-error-modal {
+  .error-content {
+    .green-text {
+      color: #00a854;
+    }
+
+    .link-btn {
+      color: red;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}

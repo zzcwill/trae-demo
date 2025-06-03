@@ -1,0 +1,46 @@
+.special-day-select {
+  .item {
+    margin-bottom: 20px;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    padding: 20px;
+
+    .date {
+      display: flex;
+      align-items: center;
+    }
+
+    .time {
+      margin-top: 10px;
+    }
+  }
+}
+
+.has-error {
+  .special-day-select {
+    .empty {
+      .dpl-input {
+        border: 1px solid #d1d3d8 !important;
+      }
+
+      .dpl-time-picker-input {
+        border: 1px solid #d1d3d8 !important;
+      }
+
+      .dpl-calendar-picker-icon::after {
+        color: #999;
+      }
+
+      .dpl-time-picker-icon::after {
+        color: #999;
+      }
+    }
+  }
+}
+
+.special-day-add-modal {
+  .dpl-modal-body {
+    max-height: 70vh;
+    overflow: auto;
+  }
+}

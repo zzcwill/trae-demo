@@ -1,0 +1,67 @@
+.internal-data-manage {
+  min-width: 1000px;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  .query-box {
+    margin: 16px;
+    background: #fff;
+    padding: 20px 40px 20px 0;
+  }
+
+  .table {
+    background: #fff;
+    padding: 16px 20px;
+
+    .pagination-wrap {
+      margin-top: 10px;
+
+      .dpl-pagination-wrapper {
+        float: none;
+      }
+    }
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .search-button {
+    display: inline-block;
+  }
+
+  .line-box {
+    display: inline-block;
+    width: 20px;
+  }
+
+  .option-button {
+    cursor: pointer;
+  }
+
+  .delete-button:hover {
+    color: #f00;
+  }
+
+  .add-box {
+    padding: 0 10px 10px;
+  }
+
+  .detail-button:hover {
+    color: #4946ff;
+  }
+}
+
+.edit-modal-box {
+  padding-bottom: 0;
+
+  .dpl-modal-body {
+    padding: 10px 10px 0;
+  }
+
+  .dpl-modal-footer {
+    padding: 0 20px 10px;
+  }
+}

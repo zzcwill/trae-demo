@@ -1,0 +1,73 @@
+.chat-tip {
+}
+
+.chat-tip-modal {
+  .dpl-modal-body {
+    max-height: 70vh;
+    overflow: auto;
+  }
+}
+
+.visitor-no-replyTip {
+  .switch {
+    display: flex;
+    align-items: center;
+  }
+
+  .list {
+    margin-top: 10px;
+
+    .item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+  }
+
+  .success {
+    border-color: #b3b5ba !important;
+
+    .dpl-input {
+      border-color: #b3b5ba !important;
+    }
+  }
+}
+
+.WaitingMessage {
+  .success {
+    border-color: #b3b5ba !important;
+
+    .dpl-input {
+      border-color: #b3b5ba !important;
+    }
+  }
+
+  .list {
+    .item {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+  }
+
+  .limit-box {
+    margin-top: 20px;
+
+    .num {
+      margin-bottom: 10px;
+    }
+  }
+
+  .close-tip-box {
+    .context {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .context-text {
+        flex: none;
+        padding-right: 20px;
+      }
+    }
+  }
+}

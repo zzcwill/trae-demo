@@ -1,0 +1,27 @@
+.add-qa {
+  padding: 20px;
+  height: 100%;
+  overflow: auto;
+
+  .add-qa-content {
+    padding: 28px;
+    background: #fff;
+
+    .title {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+  }
+
+  .dimension-tab-box {
+    margin-top: 20px;
+  }
+
+  .end-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+  }
+}

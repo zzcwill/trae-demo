@@ -1,0 +1,14 @@
+.tag-input-box {
+  padding: 5px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+.tag-max-limit {
+  .dpl-popover-inner-content {
+    max-width: 500px;
+    max-height: 400px;
+    overflow: auto;
+    word-break: break-all;
+  }
+}

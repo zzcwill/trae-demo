@@ -1,0 +1,17 @@
+.edit-modal-box {
+  .button-box {
+    background: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+
+    .button-item {
+      display: inline-block;
+    }
+
+    .line-box {
+      display: inline-block;
+      width: 20px;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.card-internalTips {
+    padding: 24px;
+    background: #ECF6FD;
+    border: 1px solid #D2EAFB;
+    border-radius: 3px;
+  
+    .title {
+      display: flex;
+      align-items: center;
+  
+      img {
+        width: 32px;
+        height: 32px;
+        margin-right: 6px;
+      }
+  
+      p {
+        font-size: 16px;
+        color: #333333;
+      }
+    }
+    .content{
+      margin-top: 10px;
+      font-size: 16px;
+      color: #666666;
+      padding-left: 35px;
+    }
+    .tips{
+      font-size: 16px;
+      color: #48a8ff;
+      margin-top: 14px;
+      padding-left: 22px;
+    }
+  }

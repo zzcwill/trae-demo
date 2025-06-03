@@ -1,0 +1,14 @@
+.expert-detail {
+  padding: 30px;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  .btn-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}

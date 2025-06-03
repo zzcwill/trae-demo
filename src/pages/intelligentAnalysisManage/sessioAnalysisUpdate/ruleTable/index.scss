@@ -1,0 +1,64 @@
+.rule-desc-popover {
+  max-width: 360px;
+}
+
+.rule-table-wrap {
+  margin-bottom: 20px;
+
+  .dpl-table-placeholder {
+    display: none;
+  }
+
+  .append {
+    height: 45px;
+    line-height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #d1d3d8;
+
+    &.pre-append {
+      background: rgb(233 235 240);
+      border-bottom: none;
+      display: flex;
+      justify-content: space-between;
+
+      .right {
+        .opt {
+          color: #2176d9;
+          cursor: pointer;
+        }
+
+        .edit-opt {
+          margin-right: 10px;
+        }
+      }
+    }
+
+    &.after-append {
+      background: #fff;
+      border-top: none;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+
+  .option-button-list {
+    color: #2176d9;
+    cursor: pointer;
+  }
+}
+
+.link-rule-win {
+  .label {
+    width: 70px;
+    display: inline-block;
+  }
+
+  .dpl-input-search {
+    width: calc(100% - 70px);
+  }
+
+  .dpl-select {
+    width: calc(100% - 70px) !important;
+  }
+}

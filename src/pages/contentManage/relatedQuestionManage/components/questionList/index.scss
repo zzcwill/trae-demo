@@ -1,0 +1,39 @@
+.question-list-box {
+  position: relative;
+
+  .dpl-popover-inner-content {
+    width: 680px;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 0;
+  }
+
+  .question-list-popover {
+    width: 100%;
+    padding: 8px 16px;
+
+    .question-list-popover-item {
+      padding: 0 10px;
+      margin: 0;
+      line-height: 30px;
+      cursor: pointer;
+      color: #606266;
+      font-size: 14px;
+      list-style: none;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      &:hover {
+        background-color: #f5f7fa;
+      }
+    }
+  }
+
+  .question-error-message-box {
+    position: absolute;
+    color: #f04134;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

@@ -1,0 +1,140 @@
+.official-service-card-box {
+  position: relative;
+  border: 1px solid #d8d8d8;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: #fff;
+  width: 270px;
+
+  .card-box {
+    width: 100%;
+    height: 190px;
+    position: relative;
+
+    .card-scene-type {
+      position: absolute;
+      padding: 2px 6px;
+      top: 0;
+      right: 0;
+      border-radius: 3px;
+      color: #fff;
+      font-size: 12px;
+    }
+
+    .card-scene-web {
+      background-color: #f5222d;
+    }
+
+    .card-scene-tool {
+      background-color: #1890ff;
+    }
+
+    .card-type-box {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 90px;
+      height: 24px;
+      border-top-left-radius: 3px;
+      border-bottom-right-radius: 10px;
+      text-align: center;
+      background-image: linear-gradient(to bottom right, #bedb3d, #0ccd64);
+      color: #fff;
+      line-height: 24px;
+      font-size: 12px;
+    }
+
+    .card-img-box {
+      width: 100%;
+      height: 60px;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+
+      img {
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .card-content-box {
+      padding: 8px 16px;
+      height: 128px;
+      overflow: hidden;
+
+      .card-description {
+        font-size: 16px;
+        color: #666;
+        font-weight: 500;
+        line-height: 28px;
+        height: 114px;
+        overflow: hidden;
+        word-break: break-all;
+        white-space: pre;
+
+        p {
+          width: 100%;
+          height: 23px;
+          overflow: hidden;
+        }
+      }
+
+      .card-item {
+        font-size: 16px;
+        color: #666;
+        font-weight: 500;
+        line-height: 28px;
+        height: 28px;
+        overflow: hidden;
+        word-break: break-all;
+        white-space: pre;
+
+        .label {
+          &::after {
+            content: ":";
+            padding: 0 5px;
+          }
+        }
+      }
+    }
+
+    .card-content-no-description {
+      height: auto;
+    }
+  }
+
+  .card-goto-consult {
+    width: 238px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #d8d8d8;
+    line-height: 40px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+    background-color: #f7f9fa;
+    margin: 0 16px 16px;
+  }
+
+  .right-up-box {
+    background-color: #fff;
+    border-radius: 50%;
+    line-height: 20px;
+    font-size: 20px;
+    position: absolute;
+    color: #f00;
+    right: -8px;
+    top: -8px;
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    .card-goto-consult {
+      color: #fff;
+      background-color: #ff8040;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.link-config-box {
+  display: flex;
+
+  .link-config-item {
+    display: flex;
+
+    .config-item-label {
+      flex: none;
+      width: 100px;
+      line-height: 30px;
+      font-size: 14px;
+      text-align: right;
+      padding-right: 10px;
+    }
+
+    .config-item-value {
+      flex: 1;
+    }
+  }
+}

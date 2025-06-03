@@ -1,0 +1,124 @@
+.home-tax-box {
+  width: 740px;
+  height: 273px;
+  background: #fff;
+  border: 1px solid #e6eaf9;
+  border-radius: 6px;
+  border-radius: 6px;
+  margin: 20px;
+
+  .content {
+    padding: 16px;
+
+    .left {
+      display: inline-block;
+      vertical-align: top;
+      width: 400px;
+      height: 200px;
+
+      img {
+        width: 100%;
+        height: 1005;
+      }
+    }
+
+    .right {
+      width: calc(100% - 400px);
+      vertical-align: top;
+      padding-left: 16px;
+      display: inline-block;
+
+      .title {
+        line-height: 36px;
+        font-weight: bold;
+        font-family: MicrosoftYaHei-Bold;
+        font-size: 22px;
+        color: #333;
+
+        .line {
+          display: inline-block;
+          width: 10px;
+        }
+      }
+
+      .time {
+        line-height: 20px;
+        opacity: 0.8;
+        font-family: MicrosoftYaHei-Bold;
+        font-size: 12px;
+        color: #36377c;
+        font-weight: bold;
+      }
+
+      .description {
+        padding: 8px 0;
+        font-family: MicrosoftYaHei;
+        font-size: 12px;
+        color: #666;
+        line-height: 20px;
+        max-height: 76px;
+        overflow: hidden;
+      }
+
+      .intro {
+        font-family: MicrosoftYaHei;
+        font-size: 12px;
+        color: #666;
+        line-height: 20px;
+
+        .intro-icon {
+          display: inline-block;
+          vertical-align: middle;
+
+          //   padding: 4px;
+        }
+
+        .line {
+          display: inline-block;
+          vertical-align: middle;
+          width: 10px;
+        }
+      }
+    }
+
+    .basic {
+      svg {
+        color: #ff8040;
+      }
+    }
+
+    .expert {
+      svg {
+        color: #673ab7;
+      }
+    }
+  }
+
+  .limit {
+    line-height: 20px;
+    padding: 0 16px 4px;
+
+    .label {
+      font-weight: bold;
+      font-family: MicrosoftYaHei-Bold;
+      font-size: 14px;
+      color: #666;
+    }
+
+    .line {
+      display: inline-block;
+      width: 10px;
+    }
+
+    .linit-tag-item {
+      margin: 0 6px;
+      padding: 0 12px;
+      border-color: #ffbc99;
+      font-family: PingFangSC-Regular;
+      font-size: 12px;
+      color: #ff8040;
+      line-height: 18px;
+      background-color: #fff;
+    }
+  }
+}

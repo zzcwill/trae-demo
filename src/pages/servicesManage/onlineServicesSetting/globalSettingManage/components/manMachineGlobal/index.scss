@@ -1,0 +1,58 @@
+.parameter {
+  background-color: #fff;
+  overflow-y: auto;
+  height: 100%;
+
+  .parameter-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .parameter-line {
+    line-height: 32px;
+    font-size: 15px;
+  }
+
+  .inline-box {
+    display: inline-block;
+    margin-bottom: 16px;
+
+    .dpl-input-number-input-wrap {
+      vertical-align: unset;
+    }
+
+    .dpl-input-number-handler {
+      vertical-align: unset;
+    }
+  }
+
+  .align-top {
+    vertical-align: top;
+  }
+
+  .dpl-select-selection {
+    &__choice {
+      &__remove {
+        margin-top: -3px;
+      }
+    }
+  }
+
+  .dpl-popover {
+    max-width: 80%;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .line {
+    width: 100%;
+    border: 1px dashed #ccc;
+    margin-bottom: 10px;
+  }
+
+  .dpl-form-explain {
+    position: absolute;
+  }
+}

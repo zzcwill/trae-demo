@@ -1,0 +1,37 @@
+.test-drawer-wrap {
+  .quert-wrap {
+    padding: 30px;
+
+    .line-item {
+      // margin: 20px 0;
+      margin-bottom: 20px;
+    }
+
+    #messageId {
+      width: 360px;
+    }
+
+    .text-wrap {
+      .text {
+        display: inline-block;
+        width: 80px;
+      }
+
+      .view-detail {
+        color: #298fe0;
+        padding-left: 5px;
+        cursor: pointer;
+
+        &.disable {
+          color: #d1d3d8 !important;
+          cursor: not-allowed;
+        }
+      }
+    }
+
+    .test-rst-wrap {
+      width: 630px;
+      vertical-align: text-top;
+    }
+  }
+}

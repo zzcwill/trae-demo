@@ -1,0 +1,11 @@
+.table-wrap-by-render {
+  padding: 20px;
+  background: #ffffff;
+  .operator{
+    span{
+      color: #0e77ca;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+  }
+}

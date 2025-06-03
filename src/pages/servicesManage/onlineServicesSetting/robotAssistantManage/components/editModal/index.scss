@@ -1,0 +1,28 @@
+.manual-interact-modal-box {
+  .manual-interact-modal-label {
+    padding: 0 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    line-height: 30px;
+    background-color: #e4e4e4;
+    margin-bottom: 10px;
+  }
+
+  .button-box {
+    background: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+
+    .button-item {
+      display: inline-block;
+    }
+
+    .line-box {
+      display: inline-block;
+      width: 20px;
+    }
+  }
+}

@@ -1,0 +1,111 @@
+.internal-edit-box {
+  .dpl-form-explain {
+    position: absolute;
+  }
+
+  .center {
+    text-align: center;
+    padding: 0 20px 10px;
+  }
+
+  .line-box {
+    display: inline-block;
+    width: 20px;
+  }
+
+  .detail-content-box {
+    height: 227px;
+    border: 1px solid #d1d3d8;
+    background-color: #f0f2f5;
+
+    // color: #999;
+    overflow: auto;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 4px 8px;
+
+    &::-webkit-scrollbar {
+      width: 5px; /* 高宽分别对应横竖滚动条的尺寸 */
+      height: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      /* 滚动条里面小方块 */
+      border-radius: 10px;
+
+      //   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+      background: #c1c1c1;
+    }
+
+    &::-webkit-scrollbar-track {
+      /* 滚动条里面轨道 */
+      // -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      background: #ededed;
+    }
+  }
+
+  .title {
+    padding: 2px 10px;
+    margin: 5px 0 10px;
+    background-color: #ccc;
+    color: #000;
+  }
+
+  .detail-org-box {
+    position: relative;
+
+    &:hover {
+      .detail-org-list {
+        display: block;
+      }
+    }
+
+    .detail-org-list {
+      display: none;
+      width: 100%;
+      height: 200px;
+      overflow: auto;
+      position: absolute;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      z-index: 100;
+      box-shadow: 0 3px 3px #b4b4b4;
+
+      .list-item {
+        line-height: 22px;
+        padding: 2px 5px;
+        white-space: nowrap;
+        word-break: break-all;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      &::-webkit-scrollbar {
+        width: 5px; /* 高宽分别对应横竖滚动条的尺寸 */
+        height: 5px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        /* 滚动条里面小方块 */
+        border-radius: 10px;
+
+        //   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+        background: #c1c1c1;
+      }
+
+      &::-webkit-scrollbar-track {
+        /* 滚动条里面轨道 */
+        // -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        background: #ededed;
+      }
+    }
+  }
+
+  .editor-box {
+    .edui-editor-toolbarbox {
+      line-height: 20px;
+    }
+  }
+}

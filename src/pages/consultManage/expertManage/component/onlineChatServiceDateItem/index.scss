@@ -1,0 +1,44 @@
+.online-chat-service-date-item {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+
+  .item {
+    padding: 0 5px;
+    display: flex;
+
+    .label {
+      flex: none;
+      width: 90px;
+      font-size: 14px;
+      color: rgb(0 0 0 / 85%);
+
+      &::before {
+        content: "*";
+        color: #f00;
+        padding: 0 4px;
+      }
+
+      &::after {
+        content: ":";
+        padding: 0 5px;
+      }
+    }
+
+    .line-text {
+      padding: 0 5px;
+    }
+
+    .select-area {
+      flex: 1;
+    }
+  }
+
+  .flex-1 {
+    flex: 1;
+  }
+}
+
+.dpl-time-picker {
+  height: 30px;
+}

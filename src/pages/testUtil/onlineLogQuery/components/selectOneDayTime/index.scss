@@ -1,0 +1,22 @@
+.select-ont-day-time-box {
+  width: 470px;
+  display: flex;
+  align-items: center;
+
+  .select-item {
+    flex: 1;
+
+    .dpl-time-picker {
+      width: 100%;
+    }
+  }
+
+  .item-between {
+    flex: none;
+    width: 20px;
+    margin: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+  }
+}

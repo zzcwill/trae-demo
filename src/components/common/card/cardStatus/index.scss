@@ -1,0 +1,12 @@
+.card-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .icon {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+}

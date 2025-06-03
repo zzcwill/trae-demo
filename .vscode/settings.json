@@ -1,4 +1,5 @@
 {
+  "workbench.editor.enablePreview": false,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   // eslint配置

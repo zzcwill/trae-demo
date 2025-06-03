@@ -1,0 +1,24 @@
+.black-list-edit {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+
+  .button-box {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .search-button {
+    display: inline-block;
+  }
+
+  .button-line-box {
+    display: inline-block;
+    width: 6px;
+  }
+
+  .telephone-context {
+    font-size: 14px;
+    color: #000;
+  }
+}

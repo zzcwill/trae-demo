@@ -1,0 +1,28 @@
+.smart-sparring-task-list {
+  padding: 12px;
+  min-height: calc(100vh - 72px);
+  display: flex;
+  flex-direction: column;
+
+  .table-info {
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+
+    .table-info-head {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.mr-12 {
+  margin-right: 12px !important;
+}
+
+.mb-12 {
+  margin-bottom: 12px !important;
+}

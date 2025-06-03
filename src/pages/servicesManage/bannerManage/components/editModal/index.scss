@@ -1,0 +1,33 @@
+.edit-banner-box {
+  .button-box {
+    background: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+
+    .button-item {
+      display: inline-block;
+    }
+
+    .line-box {
+      display: inline-block;
+      width: 20px;
+    }
+  }
+
+  .dpl-form-item-label {
+    text-align: center;
+  }
+
+  .image-info-list-box {
+    .image-info-box {
+      text-align: center;
+    }
+  }
+
+  .more-imageInfo {
+    text-align: center;
+    cursor: pointer;
+    color: #69f;
+  }
+}

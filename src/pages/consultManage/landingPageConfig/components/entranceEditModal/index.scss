@@ -1,0 +1,32 @@
+.entrance-edit-modal-box {
+  .entrance-edit-modal-title {
+    height: 36px;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin: 8px 8px 15px;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+    background-color: #e6f7ff;
+
+    span {
+      color: #737373;
+    }
+  }
+
+  .button-box {
+    background: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+
+    .button-item {
+      display: inline-block;
+    }
+
+    .line-box {
+      display: inline-block;
+      width: 20px;
+    }
+  }
+}

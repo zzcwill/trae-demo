@@ -1,0 +1,51 @@
+.expert-pool-edit-modal-box {
+  padding-top: 12px;
+
+  .choose-expert-out {
+    border-radius: 3px;
+    border: 1px solid #d9d9d9;
+    padding: 1px 5px 5px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .dpl-tag-small {
+      border: 1px solid #d1d3d8;
+      margin-top: 4px;
+      color: #666;
+    }
+
+    .choose-expert-placeholder {
+      margin-top: 4px;
+      margin-left: 3px;
+      color: #b2b2b2;
+      line-height: 20px;
+      height: 20px;
+      font-size: 14px;
+    }
+  }
+
+  li.custom-treeselect-node > span,
+  li.custom-treeselect-node > .dpl-select-tree-node-content-wrapper {
+    cursor: default;
+  }
+
+  li.custom-treeselect-node > .dpl-select-tree-node-content-wrapper span {
+    cursor: default;
+  }
+
+  .button-box {
+    background: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+
+    .button-item {
+      display: inline-block;
+    }
+
+    .line-box {
+      display: inline-block;
+      width: 20px;
+    }
+  }
+}

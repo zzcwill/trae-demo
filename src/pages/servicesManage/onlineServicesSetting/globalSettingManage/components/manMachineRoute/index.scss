@@ -1,0 +1,64 @@
+.man-machine-route {
+  height: 100%;
+  overflow: auto;
+
+  .dpl-form-item {
+    margin-bottom: 24px !important;
+
+    .success {
+      border-color: #b3b5ba !important;
+
+      .dpl-input {
+        border-color: #b3b5ba !important;
+      }
+    }
+  }
+
+  .tips {
+    color: #999;
+  }
+
+  color: #333;
+
+  .guess-question {
+    .tips {
+      display: flex;
+      justify-content: space-between;
+      color: #333;
+
+      span {
+        font-size: 12px;
+        color: #999;
+      }
+    }
+  }
+
+  .association {
+    .enable {
+      display: flex;
+      align-items: center;
+    }
+
+    .count {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .to-man {
+    .count {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .recommendQuestion {
+    display: flex;
+    align-items: center;
+  }
+
+  .intelligentAssistant {
+    display: flex;
+    align-items: center;
+  }
+}

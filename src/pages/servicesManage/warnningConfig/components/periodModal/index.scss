@@ -1,0 +1,10 @@
+.period-modal {
+  .dpl-select-selection {
+    &::after {
+      content: "\5206\949f";
+      position: absolute;
+      right: -40px;
+      top: 0;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.detail-answer {
+  padding: 20px;
+  border-bottom: 1px solid #dfe1e6;
+
+  &:last-child {
+    border: none;
+  }
+
+  .times {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .answer-content-box {
+    margin: 16px 0;
+    color: #666;
+    display: flex;
+
+    .answer-content {
+      flex: 1;
+      margin-right: 20px;
+      font-size: 16px;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+
+    .status {
+      display: flex;
+      align-items: center;
+
+      .line {
+        height: 15px;
+        width: 1px;
+        background: #ccc;
+        margin: 0 12px;
+      }
+    }
+  }
+}

@@ -1,16 +1,33 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
+import React, {lazy} from 'react'
+import {Route, Redirect, Switch, withRouter} from "react-router-dom";
+import routerConfig from './routerConfig'
 
-import app from '@/router/app';
-import demo from '@/router/demo';
 
-Vue.use(VueRouter);
 
-// 后续可添加模块
-const constantRoutes = demo.concat(app);
+const renderRoute = () => {
+    return (
+        <Switch>
+            <Route
+                path={"/"}
+                exact
+                render={props => <Redirect to={{pathname: routerConfig[0].path}}/>}
+            />
+            {routerConfig.map(route => {
+                return (
+                    <Route
+                        key={route.path}
+                        path={route.path}
+                        exact
+                        component={() => {
+                            const Comp = lazy(() => import(`../pages${route.componentPath}`));
+                            const Result = withRouter(Comp);
+                            return <Result/>;
+                        }}
+                    />
+                );
+            })}
+        </Switch>
+    );
+};
 
-export default new VueRouter({
-  mode: 'history',
-  base: '/h5',
-  routes: constantRoutes
-});
+export default renderRoute

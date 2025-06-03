@@ -1,0 +1,21 @@
+.create-call-back-todo {
+  margin: 20px;
+  padding: 12px;
+  background-color: white;
+  min-height: 100%;
+
+  .chat-autocomplete-dropdown {
+    .complete-item {
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+
+    // .complete-item:hover {
+    //   background-color: #f0f0f0;
+    // }
+  }
+}
+
+.mobile-padding {
+  margin: 0;
+}

@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
-    "baseUrl": ".", // 设置基础路径
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"] // 路径别名
+      "@/*": ["src/*"],
+      "@@/*": ["src/.hylia/*"],
     }
   },
-  "include": ["src/**/*"], // 包含的文件或目录
-  "exclude": ["node_modules", "dist", "build"] // 排除的文件或目录
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }

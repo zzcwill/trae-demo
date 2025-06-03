@@ -1,0 +1,24 @@
+.show-data-box {
+  width: 100%;
+  height: 100%;
+
+  .show-data-item {
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    margin: 5px 0;
+    color: #fff;
+  }
+
+  .queuing-num-box {
+    background: #ff6e7b;
+  }
+
+  .ringing-num-box {
+    background: #2cb5fd;
+  }
+
+  .calling-num-box {
+    background: #1ad175;
+  }
+}

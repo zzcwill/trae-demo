@@ -1,0 +1,46 @@
+.cancel-wait-query-manage {
+  height: 100%;
+  overflow: auto;
+  padding: 20px;
+
+  .form-wrap {
+    background: #fff;
+    padding: 20px 20px 16px;
+    margin-bottom: 20px;
+
+    .dora-uform-button-group {
+      display: inline-block;
+    }
+
+    .time-range-select {
+      display: flex;
+
+      .zhi {
+        margin: 0 10px;
+      }
+    }
+
+    .dpl-select {
+      width: 400px;
+    }
+  }
+
+  .table-wrap {
+    padding: 20px;
+    background: #fff;
+
+    .dpl-table-tbody {
+      td {
+        div {
+          overflow: hidden;
+          /* stylelint-disable-next-line value-no-vendor-prefix */
+          display: -webkit-box !important;
+          text-overflow: ellipsis !important;
+          -webkit-line-clamp: 2 !important;  /* 要显示的行数 */
+          -webkit-box-orient: vertical !important;
+          white-space: normal !important;
+        }
+      }
+    }
+  }
+}

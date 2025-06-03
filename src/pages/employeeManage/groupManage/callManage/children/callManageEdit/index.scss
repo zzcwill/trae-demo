@@ -1,0 +1,67 @@
+.callmanage-edit-box {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+
+  .edit-box {
+    min-height: calc(100% - 40px);
+    margin: 20px;
+    background: #fff;
+
+    .edit-title {
+      padding: 28px;
+      font-family: MicrosoftYaHei;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .form-box {
+      width: 904px;
+      padding-right: 20px;
+    }
+
+    .form-line {
+      margin: 5px -34px 28px 20px;
+      border-bottom: 1px dashed #ddd;
+    }
+
+    .button-box {
+      text-align: center;
+      padding-bottom: 10px;
+    }
+
+    .search-button {
+      display: inline-block;
+    }
+
+    .button-line-box {
+      display: inline-block;
+      width: 6px;
+    }
+
+    .dpl-select-tree-dropdown {
+      max-height: 300px !important;
+      overflow: auto;
+
+      &::-webkit-scrollbar {
+        width: 8px; /* 高宽分别对应横竖滚动条的尺寸 */
+        height: 8px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        /* 滚动条里面小方块 */
+        border-radius: 10px;
+
+        //   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+        background: #b1b1b1;
+      }
+
+      &::-webkit-scrollbar-track {
+        /* 滚动条里面轨道 */
+        //   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        background: #ededed;
+      }
+    }
+  }
+}

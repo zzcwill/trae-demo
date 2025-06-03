@@ -1,0 +1,37 @@
+.index-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .index-header {
+    height: 60px;
+    background: yellow;
+    width: 100%;
+  }
+
+  .index-layout-box {
+    flex: 1;
+    overflow: auto;
+    width: 100%;
+    display: flex;
+
+    .left-nav {
+      width: 200px;
+      height: 100%;
+      background: aqua;
+    }
+
+    .right-content {
+      flex: 1;
+      height: 100%;
+      background: #f8f8f8;
+      overflow: hidden;
+
+      /*  overflow-y: scroll;
+      scrollbar-base-color: transparent;
+      scrollbar-darkshadow-color: transparent;
+      scrollbar-highlight-color: transparent;
+      scrollbar-face-color: transparent; */
+    }
+  }
+}

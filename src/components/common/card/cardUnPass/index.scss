@@ -1,0 +1,28 @@
+.unPass {
+  background: #FFEBEA;
+  border: 1px solid #FFC4C1;
+  border-radius: 3px;
+  padding: 24px;
+
+  .title {
+    display: flex;
+    align-items: center;
+    img{
+      width: 32px;
+      height: 32px;
+      margin-right: 7px;
+    }
+    p{
+      font-size: 16px;
+      color: #333333;
+      font-weight: bold;
+    }
+  }
+  .des{
+    padding-left: 40px;
+    font-size: 16px;
+    color: #666666;
+    margin-top: 7px;
+    word-break: break-all;
+  }
+}

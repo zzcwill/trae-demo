@@ -1,0 +1,24 @@
+.batch-edit-time-modal {
+  .expert-out {
+    margin-bottom: 20px;
+
+    .left-title {
+      text-align: right;
+      margin-right: 5px;
+    }
+
+    .expert-view {
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      min-height: 24px;
+      padding: 4px;
+      max-height: 400px;
+      overflow: auto;
+
+      .expert-item {
+        margin-right: 5px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}

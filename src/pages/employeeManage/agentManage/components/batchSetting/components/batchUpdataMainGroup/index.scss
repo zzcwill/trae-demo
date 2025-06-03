@@ -1,0 +1,44 @@
+.main-group-box {
+  .edit-item {
+    width: 100%;
+    padding-bottom: 16px;
+
+    .item-label {
+      display: inline-block;
+      vertical-align: top;
+      width: 80px;
+      margin-right: 8px;
+      text-align: right;
+    }
+
+    .item-context {
+      display: inline-block;
+      vertical-align: top;
+      width: calc(100% - 90px);
+      text-align: left;
+
+      .operation-select {
+        width: 100%;
+      }
+
+      .context-components {
+        width: 100%;
+      }
+    }
+  }
+
+  .button-box {
+    bottom: 12px;
+    width: 100%;
+    text-align: center;
+
+    .button-item {
+      display: inline-block;
+    }
+
+    .line-box {
+      display: inline-block;
+      width: 20px;
+    }
+  }
+}

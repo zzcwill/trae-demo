@@ -1,0 +1,52 @@
+.searchBtn {
+  position: relative;
+
+  .btn {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-left: 6px;
+    }
+  }
+
+  .search-content {
+    position: absolute;
+    top: 35px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    box-shadow: 0 1px 6px 0 rgb(127 132 146 / 45%);
+    border-radius: 3px;
+    padding: 20px 16px;
+    z-index: 100;
+    width: 358px;
+
+    .search-form {
+      .item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+
+        .dpl-checkbox + span,
+        .dpl-checkbox-wrapper + span {
+          font-size: 14px;
+          color: #333;
+        }
+
+        .label {
+          font-size: 14px;
+          color: #333;
+        }
+
+        .input-wrap {
+          flex: 1;
+        }
+      }
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.sessio-analysis-update {
+  height: 100%;
+
+  .container-header {
+    margin: 15px;
+    height: 40px;
+  }
+
+  .container-content {
+    height: calc(100% - 145px);
+    overflow-y: scroll;
+    background-color: #fff;
+    margin: 15px;
+  }
+
+  .container-footer {
+    height: 60px;
+    background-color: #fff;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .dpl-btn {
+      margin-right: 15px;
+    }
+  }
+}

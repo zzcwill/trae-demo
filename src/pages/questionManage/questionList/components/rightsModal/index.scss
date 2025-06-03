@@ -1,0 +1,139 @@
+.rights-modal {
+  .company-list {
+    padding: 0 20px 20px;
+    max-height: calc(80vh - 100px);
+    overflow-y: auto;
+
+    .company-list-item {
+      padding: 20px 0;
+      border-bottom: 1px solid #ecedf1;
+
+      .name-wrap {
+        display: flex;
+        align-items: center;
+
+        .tag {
+          padding: 1px 4px;
+          border-radius: 3px;
+          font-size: 12px;
+          margin-right: 4px;
+          font-weight: 400;
+          line-height: 18px;
+        }
+
+        .tag-green {
+          color: #0c6;
+          background-color: #ebf8f2;
+        }
+
+        .tag-orange {
+          color: #ff8040;
+          background-color: #fff2eb;
+        }
+
+        .tag-blue {
+          color: #3195f2;
+          background-color: #ebf5ff;
+        }
+
+        .name {
+          // white-space: nowrap;
+          // overflow: hidden;
+          // text-overflow: ellipsis;
+          font-size: 16px;
+          color: #333;
+          font-weight: bold;
+          max-width: 660px;
+        }
+      }
+
+      .description {
+        margin-top: 8px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 14px;
+        color: #666;
+      }
+
+      .taxNo {
+        font-size: 14px;
+        color: #666;
+        margin-top: 8px;
+      }
+
+
+      .rights-wrap {
+        margin-top: 16px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        color: #9297a1;
+        align-items: flex-end;
+
+        .rights-box {
+          flex: 1;
+          margin-right: 10px;
+
+          .rights {
+            line-height: 24px;
+            word-break: break-all;
+            display: flex;
+
+            .rights-list {
+              max-width: 580px;
+              color: #666;
+            }
+          }
+        }
+
+        .operation {
+          display: flex;
+          align-items: center;
+
+          .line {
+            width: 1px;
+            height: 12px;
+            background: #9398a2;
+            margin: 0 8px;
+          }
+
+          .operation-item {
+            display: flex;
+            cursor: pointer;
+
+            img {
+              margin-right: 8px;
+            }
+
+            p {
+              font-size: 14px;
+              color: #9297a1;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .no-data {
+    display: flex;
+    flex-direction: column;
+    padding-top: 230px;
+    padding-bottom: 230px;
+    align-items: center;
+
+    .tips {
+      font-size: 14px;
+      color: #333;
+      margin-top: 12px;
+    }
+
+    .des {
+      font-size: 12px;
+      color: #666;
+      margin-top: 4px;
+      margin-bottom: 20px;
+    }
+  }
+}

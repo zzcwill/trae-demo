@@ -1,0 +1,15 @@
+.icon-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .image {
+    width: 16px;
+  }
+
+  .text {
+    margin-left: 5px;
+    color: #999;
+    font-size: 14px;
+  }
+}

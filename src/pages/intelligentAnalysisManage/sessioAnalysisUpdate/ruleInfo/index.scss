@@ -1,0 +1,34 @@
+.rule-info-container {
+  padding: 20px;
+
+  .dpl-form-item-label {
+    width: 90px;
+    vertical-align: top;
+  }
+
+  .dpl-form-item-control-wrapper {
+    display: inline-block;
+    width: calc(100% - 90px);
+  }
+
+  .item-title {
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+
+  .item-content {
+    padding-left: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 30px;
+
+    .add-category-wrap {
+      margin-bottom: 15px;
+
+      .dpl-btn {
+        border: 1px #bfbfbf dashed;
+      }
+    }
+  }
+}

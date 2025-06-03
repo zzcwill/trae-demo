@@ -1,0 +1,22 @@
+.entry-config-item-box {
+  .entry-config-enum {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+    .entry-config-enum-label {
+      width: 80px;
+      text-align: right;
+      margin-right: 10px;
+      line-height: 30px;
+    }
+
+    .entry-config-enum-space {
+      width: 30px;
+    }
+
+    .entry-config-enum-context {
+      flex: 1;
+    }
+  }
+}

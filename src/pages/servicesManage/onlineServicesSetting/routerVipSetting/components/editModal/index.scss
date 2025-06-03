@@ -1,0 +1,28 @@
+.edit-blacklist-modal-box {
+  .line-box {
+    display: inline-block;
+    width: 20px;
+  }
+
+  .button-box {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+
+    .button-item {
+      display: inline-block;
+    }
+  }
+
+  .edit-radio-box {
+    display: block;
+  }
+
+  .label-title {
+    line-height: 20px;
+    padding-left: 10px;
+    background-color: #00a0e4;
+    color: #fff;
+    margin: 5px 0;
+  }
+}

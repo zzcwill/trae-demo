@@ -1,0 +1,63 @@
+.online-log-query {
+  padding: 20px;
+  height: 100%;
+  overflow: auto;
+
+  .online-log-copy-btn {
+    width: 100%;
+
+    // text-overflow: ellipsis;
+    //  overflow: hidden;
+    //  white-space: nowrap;
+  }
+
+  .form-wrap {
+    background: #fff;
+    padding: 20px 20px 0;
+    margin-bottom: 20px;
+
+    .dpl-select {
+      width: 166px;
+    }
+
+    .dpl-form-item-control {
+      // width: 300px;
+    }
+
+    .dpl-form-item {
+      margin-bottom: 18px;
+    }
+
+    .dora-uform-button-group {
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.online-log-detail-modal {
+  width: 70vw !important;
+
+  .dpl-modal-body {
+    max-height: 70vh;
+    overflow: auto;
+  }
+
+  .online-log-detail {
+    .log-detail-item {
+      display: flex;
+      margin-bottom: 8px;
+      color: #333;
+
+      .label {
+        margin-right: 10px;
+        width: 150px;
+        text-align: right;
+      }
+
+      .value {
+        flex: 1;
+      }
+    }
+  }
+}

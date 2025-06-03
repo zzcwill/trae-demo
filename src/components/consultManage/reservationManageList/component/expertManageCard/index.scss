@@ -1,0 +1,51 @@
+.expert-manage-card {
+  border: 1px solid #e9e9e9;
+  border-radius: 6px;
+  width: 368px;
+  margin-bottom: 20px;
+
+  &:nth-child(3n-1) {
+    margin: 0 10px 20px;
+  }
+
+  .btn-group {
+    width: 368px;
+    height: 50px;
+    border-top: 1px solid #e9e9e9;
+    line-height: 50px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: rgb(0 0 0 / 45%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .line {
+      display: inline-block;
+      height: 20px;
+      border-left: 1px solid #e8e8e8;
+      margin: 15px 0;
+      vertical-align: middle;
+    }
+
+    .card-option-item {
+      display: inline-block;
+      vertical-align: middle;
+      width: 122px;
+      flex: 1;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .text-line {
+      display: inline-block;
+      width: 10px;
+    }
+
+    .edit {
+      &:hover {
+        color: #ff8040;
+      }
+    }
+  }
+}

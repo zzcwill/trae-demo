@@ -1,0 +1,16 @@
+.add-test {
+  height: 100%;
+  overflow: auto;
+  padding: 20px;
+
+  .add-form-by-render {
+    padding: 20px;
+    background: #fff;
+
+    .btn-group {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

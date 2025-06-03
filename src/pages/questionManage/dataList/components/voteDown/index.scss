@@ -1,0 +1,6 @@
+.vote-modal {
+  .vote-list {
+    max-height: calc(80vh - 100px);
+    overflow-y: auto;
+  }
+}

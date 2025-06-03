@@ -1,0 +1,37 @@
+.dynamicForm {
+  .dpl-form-item-label > label::after {
+    content: "";
+  }
+
+  &.field-colon {
+    .dpl-form-item-label > label::after {
+      content: " :";
+      position: relative;
+      top: -0.5px;
+      margin: 0 8px 0 2px;
+    }
+  }
+
+  &.detail {
+    .dpl-form-item-label {
+      padding-right: 0;
+    }
+  }
+
+  &.form-item-vertical {
+    .dpl-form-item {
+      display: flex !important;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      .dpl-form-item-label {
+        width: 100% !important;
+        text-align: left !important;
+
+        .dpl-time-picker {
+          width: 140px;
+        }
+      }
+    }
+  }
+}

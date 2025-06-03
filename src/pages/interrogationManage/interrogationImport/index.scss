@@ -1,0 +1,45 @@
+.interrogation-import {
+  .app-search-box {
+    .dpl-form-item-control {
+      width: 300px;
+    }
+  }
+
+  .remark-rows {
+    div {
+      /* stylelint-disable-next-line value-no-vendor-prefix */
+      display: -webkit-box !important;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      white-space: unset !important;
+      text-align: center;
+      width: 100%;
+    }
+  }
+}
+
+.import-error-modal {
+  .dpl-modal-body {
+    padding: 0;
+
+    .error-content {
+      padding: 20px;
+      max-height: 300px;
+      overflow-y: auto;
+      line-height: 1.5;
+    }
+  }
+}
+
+.import-deduct-modal {
+  .dpl-modal-body {
+    padding: 0;
+
+    .deduct-content {
+      padding: 20px;
+      max-height: 300px;
+      overflow-y: auto;
+      line-height: 1.5;
+    }
+  }
+}

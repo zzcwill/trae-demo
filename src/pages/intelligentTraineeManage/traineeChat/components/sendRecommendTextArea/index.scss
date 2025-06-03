@@ -1,0 +1,35 @@
+.send-recommend-text-area-box {
+  padding: 15px 12px;
+  position: relative;
+  z-index: 9;
+  margin: 0 auto;
+  width: 100%;
+  border: 1px solid #eaeaea;
+  background: #fff;
+  box-shadow: 0 0 12px 0 rgb(229 229 229 / 50%);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+
+  .send-input {
+    width: 100%;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    resize: none;
+
+    // 隐藏滚动条
+    overflow: hidden;
+  }
+
+  .send-btn {
+    width: 52px;
+    height: 32px;
+    cursor: pointer;
+
+    .send-img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.analysis-target-container {
+  padding: 20px;
+
+  .step-desc-wrap,
+  .plan-goals-wrap {
+    margin-bottom: 20px;
+
+    .default-title {
+      line-height: 30px;
+      margin-bottom: 12px;
+    }
+
+    .default-goal-item {
+      line-height: 30px;
+    }
+  }
+
+  .item-title {
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+
+  .item-content {
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 30px;
+  }
+
+  .add-desc-btn-wrap {
+    .dpl-btn {
+      border: 1px #bfbfbf dashed;
+    }
+  }
+
+  .add-goal-wrap {
+    width: 168px !important;
+    text-align: center;
+  }
+
+  .dpl-common-iconfont {
+    cursor: pointer;
+    color: #2176d9;
+  }
+}
+
+.preview-content {
+  padding: 15px;
+}

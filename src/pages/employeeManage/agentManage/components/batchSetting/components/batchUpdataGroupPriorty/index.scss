@@ -1,0 +1,152 @@
+.group-priorty-batch {
+  .edit-item {
+    width: 100%;
+    padding-bottom: 16px;
+
+    .item-label {
+      display: inline-block;
+      vertical-align: top;
+      width: 80px;
+      margin-right: 8px;
+      text-align: right;
+    }
+
+    .item-context {
+      display: inline-block;
+      vertical-align: top;
+      width: calc(100% - 90px);
+      text-align: left;
+
+      .operation-select {
+        width: 100%;
+      }
+
+      .context-components {
+        width: 100%;
+      }
+    }
+  }
+
+  .line-box {
+    border-bottom: 1px dashed #ddd;
+  }
+
+  .search-view {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left-title {
+      width: 70px;
+    }
+
+    .search-text {
+      flex: 1;
+    }
+
+    .search-btn {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+
+  .priorty-box {
+    padding: 17px 0 18px;
+
+    .all-checked {
+      padding-left: 17px !important;
+      cursor: pointer;
+      width: 80px;
+    }
+
+    .title {
+      padding-left: 27px;
+      margin-bottom: 18px;
+    }
+
+    .list-box {
+      height: 180px;
+      overflow: auto;
+
+      &::-webkit-scrollbar {
+        width: 8px; /* 高宽分别对应横竖滚动条的尺寸 */
+        height: 8px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        /* 滚动条里面小方块 */
+        border-radius: 10px;
+
+        //   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+        background: #b1b1b1;
+      }
+
+      &::-webkit-scrollbar-track {
+        /* 滚动条里面轨道 */
+        //   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        background: #ededed;
+      }
+    }
+
+    .group-item {
+      padding-left: 17px;
+      padding-right: 10px;
+      padding-bottom: 12px;
+      font-family: MicrosoftYaHei;
+      font-size: 14px;
+      color: #333;
+      line-height: 30px;
+
+      .group-select {
+        display: inline-block;
+        width: 30px;
+      }
+
+      .group-name {
+        display: inline-block;
+        vertical-align: top;
+        width: 280px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        margin-right: 30px;
+      }
+
+      .group-value {
+        display: inline-block;
+        vertical-align: top;
+        width: calc(100% - 340px);
+
+        .value-name {
+          display: inline-block;
+          width: 60px;
+        }
+
+        .value {
+          width: calc(100% - 60px);
+        }
+      }
+    }
+  }
+
+  .message-required {
+    color: #ff8961;
+  }
+
+  .button-box {
+    bottom: 12px;
+    width: 100%;
+    text-align: center;
+
+    .button-item {
+      display: inline-block;
+    }
+
+    .line-box {
+      display: inline-block;
+      width: 20px;
+    }
+  }
+}

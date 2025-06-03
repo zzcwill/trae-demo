@@ -1,0 +1,24 @@
+.problem-card {
+  padding-bottom: 5px;
+
+  .question-box {
+    display: flex;
+
+    .left {
+      flex: 1;
+
+      .title {
+        display: inline-block;
+        cursor: pointer;
+      }
+    }
+
+    .right {
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      line-height: 30px;
+    }
+  }
+}

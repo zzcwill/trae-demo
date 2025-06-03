@@ -1,0 +1,68 @@
+.agent-auxiliary-config {
+  position: relative;
+  height: calc(100% - 40px);
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  padding-top: 80px;
+  overflow-y: auto;
+}
+
+.agent-auxiliary-config-body {
+  margin: 20px 0;
+
+  .version-config-part {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .version-config-item {
+    min-width: 1160px;
+    width: 90%;
+    border: 1px solid rgb(191 191 191);
+    padding: 20px;
+    margin-bottom: 20px;
+
+    .version-config-item-row {
+      display: flex;
+      justify-content: flex-start;
+
+      .version-config-item-form {
+        margin-right: 20px;
+
+        .dpl2-form-item-label {
+          width: 90px !important;
+        }
+      }
+    }
+  }
+
+  .version-config-item-btn {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .icon-delete {
+      cursor: pointer;
+      font-size: 30px;
+      color: #333;
+    }
+  }
+}
+
+.agent-auxiliary-config-head {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+
+  .btn-new {
+    margin-right: 16px;
+  }
+}

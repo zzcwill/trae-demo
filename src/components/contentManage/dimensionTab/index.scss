@@ -1,0 +1,66 @@
+.dimension-tab {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
+  .dimension-list-wrap {
+    overflow-x: scroll;
+    margin-bottom: -17px;
+    overflow-y: hidden;
+
+    .dimension-list {
+      width: auto;
+      white-space: nowrap;
+      transition: 0.3s all ease;
+
+      .item {
+        // width: 74px;
+        padding: 0 16px;
+        height: 30px;
+        display: inline-block;
+        background: #e9ebf0;
+        border: 1px solid #d1d3d8;
+        border-radius: 3px 3px 0 0;
+        margin-right: 4px;
+        text-align: center;
+        line-height: 30px;
+        cursor: pointer;
+        font-size: 14px;
+        border-bottom: none;
+
+        &.active {
+          background: #fff;
+          color: #39f;
+
+          //  border-bottom: 1px solid #ffffff;
+        }
+
+        .item-wrap {
+          display: flex;
+          height: 100%;
+          width: 100%;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+
+  .icon-wrap {
+    background: #fff;
+    border: 1px solid #d1d3d8;
+    height: 30px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-bottom: none;
+  }
+
+  .add-icon {
+    width: 16px;
+    margin-left: 12px;
+    cursor: pointer;
+  }
+}

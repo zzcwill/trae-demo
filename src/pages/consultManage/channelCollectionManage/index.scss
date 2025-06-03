@@ -1,0 +1,71 @@
+.channel-collection-manage {
+  height: 100%;
+  overflow: auto;
+  padding: 20px;
+
+  .content {
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  .search-box {
+    margin-bottom: 10px;
+
+    .dpl-form-item {
+      margin-bottom: 5px;
+    }
+
+    .dora-uform-button-group {
+      display: inline-block;
+      margin-bottom: 5px;
+    }
+  }
+
+  .list-box {
+    padding: 16px 0 0;
+
+    .channel-collection-option-box {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0 5px;
+
+      .option-line {
+        display: inline-block;
+        width: 10px;
+      }
+    }
+  }
+
+  .pagination-box {
+    height: 50px;
+    padding: 0 16px;
+    width: 100%;
+    background-color: #fff;
+
+    .dpl-pagination-wrapper {
+      line-height: 40px;
+      float: unset;
+
+      .dpl-pagination-total-text {
+        line-height: 40px;
+      }
+    }
+
+    .dpl-pagination {
+      text-align: center;
+    }
+
+    .dpl-pagination-jump-next {
+      &::after {
+        content: unset;
+      }
+    }
+
+    .dpl-pagination-jump-prev {
+      &::after {
+        content: unset;
+      }
+    }
+  }
+}

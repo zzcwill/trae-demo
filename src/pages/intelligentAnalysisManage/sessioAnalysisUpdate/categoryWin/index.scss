@@ -1,0 +1,11 @@
+.category-win {
+  .dpl-form-item-label {
+    width: 90px;
+    vertical-align: top;
+  }
+
+  .dpl-form-item-control-wrapper {
+    display: inline-block;
+    width: calc(100% - 90px);
+  }
+}

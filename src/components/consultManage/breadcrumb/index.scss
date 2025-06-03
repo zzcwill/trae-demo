@@ -1,0 +1,32 @@
+.breadcrumb-wrap {
+  display: flex;
+
+  .breadcrumb-item {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-size: 14px;
+
+    &:last-child {
+      color: #39f;
+
+      .dpl-common-iconfont {
+        display: none;
+      }
+    }
+
+    .text {
+      cursor: pointer;
+
+      &:hover {
+        color: #39f;
+      }
+    }
+
+    .dpl-common-iconfont {
+      margin: 0 8px;
+      color: #333;
+      font-size: 12px;
+    }
+  }
+}

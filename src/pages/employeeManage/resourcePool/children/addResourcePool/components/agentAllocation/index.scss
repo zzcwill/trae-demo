@@ -1,0 +1,69 @@
+.agent-allocation {
+  .head-tools {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .inline-desc {
+    font-size: 14px;
+  }
+
+  .agent-select {
+    .dpl2-select-selector {
+      padding: 2px 4px;
+    }
+  }
+
+  .call-group-select {
+    width: auto !important;
+  }
+
+  .add-btn {
+    margin-left: 16px;
+  }
+
+  .clear-btn {
+    margin-left: 12px;
+  }
+
+  .content-list {
+    // background-color: #e5e5e5;
+    // padding: 16px;
+    margin-top: 16px;
+    border-radius: 4px;
+  }
+
+  .row-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .dpl-input-number {
+      margin: 0 4px;
+    }
+  }
+
+  .dpl-checkbox-wrapper {
+    margin-right: 8px;
+  }
+
+  .employee-search-box {
+    width: calc(100% - 400px) !important;
+  }
+
+  .success {
+    .dpl-input {
+      border-color: #c4c6cc !important;
+    }
+
+    .dpl-select-selection {
+      border-color: #c4c6cc !important;
+    }
+
+    .dpl-select-arrow,
+    .dpl-select-arrow i {
+      color: #333 !important;
+    }
+  }
+}

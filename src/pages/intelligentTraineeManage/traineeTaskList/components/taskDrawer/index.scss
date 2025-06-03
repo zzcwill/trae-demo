@@ -1,0 +1,40 @@
+.task-drawer-info {
+  // .seek2-drawer-body {
+  //   padding-top: 0;
+  // }
+
+  // .task-drawer-info {
+  //   padding-top: 24px;
+  //   border-top: 1px solid #e6e6e6;
+  // }
+  .sub-title {
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+  }
+
+  .sub-line {
+    margin-bottom: 16px;
+    height: 1px;
+    width: 100%;
+    background-color: #e6e6e6;
+  }
+
+  .task-drawer-upload {
+    .upload-warn-tip {
+      margin-top: 8px;
+      color: #d9221e;
+    }
+  }
+
+  .task-name-input {
+    // google浏览器适配
+    padding: 0 8px;
+
+    // edge浏览器
+    .dpl2-input {
+      height: 24px;
+    }
+  }
+}

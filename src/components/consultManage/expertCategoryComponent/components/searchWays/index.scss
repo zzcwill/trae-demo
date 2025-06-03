@@ -1,0 +1,25 @@
+.search-ways-box {
+  padding: 10px 0;
+
+  .search-ways-item {
+    display: flex;
+    padding: 5px 0;
+
+    .item-label {
+      width: 120px;
+      font-size: 14px;
+      line-height: 28px;
+      text-align: right;
+      padding-right: 10px;
+      flex: none;
+    }
+
+    .item-value {
+      flex: 1;
+    }
+
+    .ways-category-item {
+      line-height: 40px;
+    }
+  }
+}

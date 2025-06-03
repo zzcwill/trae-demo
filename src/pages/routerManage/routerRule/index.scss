@@ -1,0 +1,108 @@
+.router-rule {
+  padding: 20px;
+  height: calc(100% - 64px);
+  overflow: auto;
+
+  .filter-box {
+    position: relative;
+
+    .icon-expand {
+      font-size: 36px;
+      position: absolute;
+      bottom: -10px;
+      left: calc(50% - 12px);
+      cursor: pointer;
+    }
+
+    .dpl-form-inline .dpl-form-item > div {
+      vertical-align: top !important;
+    }
+  }
+
+  .form-wrap {
+    background: #fff;
+    padding: 20px 20px 0;
+    margin-bottom: 20px;
+
+    &.show {
+      // visibility: visible;
+      height: auto;
+    }
+
+    &.hide {
+      // visibility: hidden;
+      overflow: hidden;
+      height: 0;
+    }
+
+    .dpl-form-item-control {
+      width: 300px;
+
+      .rule-config-item-select {
+        min-width: 160px;
+      }
+    }
+
+    .dpl-form-item {
+      // margin-bottom: 18px;
+    }
+
+    .dora-uform-button-group {
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .rule-box {
+    padding: 20px;
+    background: #fff;
+
+    .operation-list {
+      display: flex;
+      flex-wrap: wrap;
+      z-index: 100;
+
+      .item {
+        width: 80px;
+        color: #39f;
+        cursor: pointer;
+      }
+    }
+
+    tr.drop-over-downward td {
+      border-bottom: 2px dashed #1890ff;
+    }
+
+    tr.drop-over-upward td {
+      border-top: 2px dashed #1890ff;
+    }
+
+    .rule-box-item {
+      margin-bottom: 20px;
+
+      .header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+        .title {
+          font-weight: bold;
+          font-size: 16px;
+          margin-right: 20px;
+
+          span {
+            color: #999;
+          }
+        }
+      }
+
+      .condition-list {
+        text-align: left;
+      }
+    }
+  }
+}
+
+.router-rule-bottom-toolbar {
+  padding: 16px;
+}

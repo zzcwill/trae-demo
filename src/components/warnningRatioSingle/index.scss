@@ -1,0 +1,18 @@
+.warnning-ratio-single {
+  font-size: 14px;
+  color: #333;
+
+  .header {
+    margin-bottom: 8px;
+  }
+
+  .condition {
+    > span {
+      margin-right: 16px;
+    }
+  }
+
+  .switch {
+    margin-right: 8px;
+  }
+}

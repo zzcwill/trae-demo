@@ -1,0 +1,46 @@
+.expert-detail-box {
+  .expert-detail-item {
+    margin: 15px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .button-box {
+    background: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+
+    .button-item {
+      display: inline-block;
+    }
+
+    .line-box {
+      display: inline-block;
+      width: 20px;
+    }
+  }
+}
+
+.expert-select-modal {
+  .select-expert-detail-box {
+    .title {
+      font-weight: bold;
+    }
+
+    .line {
+      display: inline-block;
+      width: 20px;
+    }
+
+    .remarks {
+      color: #c9c9c9;
+    }
+  }
+
+  .dpl-modal-body {
+    height: 80vh;
+    overflow: auto;
+    padding: 0;
+  }
+}

@@ -1,0 +1,122 @@
+.group-priorty-box {
+  width: 100%;
+  height: 500px;
+  padding: 7px 20px 12px;
+  position: relative;
+
+  .agent-message-box {
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+    margin-bottom: 7px;
+
+    .message-item {
+      width: 100%;
+      padding-bottom: 17px;
+
+      .label {
+        display: inline-block;
+        vertical-align: top;
+        width: 70px;
+        margin-right: 8px;
+        text-align: right;
+      }
+
+      .context {
+        display: inline-block;
+        vertical-align: top;
+        width: calc(100% - 80px);
+        text-align: left;
+      }
+    }
+  }
+
+  .line-box {
+    border-bottom: 1px dashed #ddd;
+  }
+
+  .priorty-box {
+    padding: 17px 0 18px;
+
+    .title {
+      padding-left: 17px;
+      margin-bottom: 18px;
+    }
+
+    .list-box {
+      height: 295px;
+      overflow: auto;
+
+      &::-webkit-scrollbar {
+        width: 8px; /* 高宽分别对应横竖滚动条的尺寸 */
+        height: 8px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        /* 滚动条里面小方块 */
+        border-radius: 10px;
+
+        //   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+        background: #b1b1b1;
+      }
+
+      &::-webkit-scrollbar-track {
+        /* 滚动条里面轨道 */
+        //   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        background: #ededed;
+      }
+    }
+
+    .group-item {
+      padding-left: 17px;
+      padding-bottom: 12px;
+      font-family: MicrosoftYaHei;
+      font-size: 14px;
+      color: #333;
+      line-height: 30px;
+
+      .group-name {
+        display: inline-block;
+        vertical-align: top;
+        width: 310px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        margin-right: 40px;
+      }
+
+      .group-value {
+        display: inline-block;
+        vertical-align: top;
+        width: calc(100% - 350px);
+
+        .value-name {
+          display: inline-block;
+          width: 60px;
+        }
+
+        .value {
+          width: calc(100% - 60px);
+        }
+      }
+    }
+  }
+
+  .button-box {
+    position: absolute;
+    bottom: 12px;
+    width: calc(100% - 40px);
+    text-align: center;
+
+    .button-item {
+      display: inline-block;
+    }
+
+    .line-box {
+      display: inline-block;
+      width: 20px;
+    }
+  }
+}

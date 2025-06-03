@@ -1,0 +1,91 @@
+.entrance-config-box {
+  .search-box {
+    margin-bottom: 10px;
+
+    .dpl-form-item {
+      margin-bottom: 5px;
+    }
+
+    .dora-uform-button-group {
+      display: inline-block;
+      margin-bottom: 5px;
+    }
+  }
+
+  .entrance-list-box {
+    padding: 16px 0 0;
+
+    .entrance-option-box {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0 5px;
+
+      .entrance-option-edit {
+        padding: 0 8px;
+        color: #39f;
+        font-size: 14px;
+        cursor: pointer;
+      }
+    }
+
+    .entrance-status {
+      &::before {
+        content: "●";
+        font-weight: bold;
+        padding: 0 3px;
+        color: #c5c5c5;
+      }
+    }
+
+    .entrance-status-effective {
+      &::before {
+        color: #52c41a;
+      }
+    }
+
+    .entrance-status-invalid {
+      &::before {
+        color: #f5222d;
+      }
+    }
+  }
+
+  .pagination-box {
+    height: 50px;
+    padding: 0 16px;
+    width: 100%;
+    background-color: #fff;
+
+    .dpl-pagination-wrapper {
+      line-height: 40px;
+      float: unset;
+
+      .dpl-pagination-total-text {
+        line-height: 40px;
+      }
+    }
+
+    .dpl-pagination {
+      text-align: center;
+    }
+
+    .dpl-pagination-jump-next {
+      &::after {
+        content: unset;
+      }
+    }
+
+    .dpl-pagination-jump-prev {
+      &::after {
+        content: unset;
+      }
+    }
+  }
+}
+
+.entrance-config-edit-modal {
+  .dpl-modal-body {
+    padding: 0 20px;
+  }
+}

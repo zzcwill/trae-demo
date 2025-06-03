@@ -1,0 +1,30 @@
+.landing-card-box {
+  padding: 0 16px 16px;
+  background-color: #fff;
+
+  .landing-card-head {
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 16px 0;
+    justify-content: center;
+
+    .landing-card-head-title {
+      font-weight: bold;
+      line-height: 28px;
+      padding: 0 5px;
+    }
+
+    .landing-card-head-extra {
+      flex: 1;
+    }
+
+    .landing-card-head-extra-center {
+      text-align: center;
+    }
+
+    .landing-card-head-extra-right {
+      text-align: right;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.add-category-box {
+  .add-category {
+    display: inline-block;
+    padding: 0 10px;
+    border: 1px dashed #ccc;
+    margin: 5px 10px 5px 0;
+    cursor: pointer;
+    text-align: center;
+    line-height: 28px;
+    width: 170px;
+
+    .line {
+      display: inline-block;
+      width: 10px;
+    }
+  }
+}

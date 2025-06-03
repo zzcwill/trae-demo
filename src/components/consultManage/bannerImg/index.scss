@@ -1,0 +1,60 @@
+.banner-image-box {
+  width: 100%;
+
+  .banner-content {
+    font-size: 20px;
+    font-weight: bold;
+
+    .content-line {
+      display: inline-block;
+      width: 15px;
+    }
+  }
+
+  .image {
+    width: 830px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .option {
+    width: calc(100% - 830px);
+    vertical-align: top;
+    display: inline-block;
+    padding: 15px 0 15px 15px;
+    max-width: 300px;
+
+    .option-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+
+      .label {
+        flex: none;
+        width: 90px;
+        font-size: 14px;
+        color: #333;
+      }
+
+      .content {
+        flex: 1;
+        overflow: hidden;
+      }
+    }
+  }
+
+  .disabled {
+    cursor: not-allowed !important;
+
+    .edit {
+      cursor: not-allowed !important;
+      color: #999 !important;
+    }
+
+    .delete {
+      cursor: not-allowed !important;
+      color: #999 !important;
+    }
+  }
+}

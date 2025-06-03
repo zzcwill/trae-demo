@@ -1,0 +1,69 @@
+.scheduling-list {
+  .dpl-btn-text:hover {
+    background-color: transparent;
+  }
+
+  .dpl-table-wrapper {
+    z-index: 100;
+  }
+
+  .app-search-box {
+    .dpl-table-wrapper {
+      z-index: 100;
+    }
+
+    .dpl-form-item-control {
+      width: 300px;
+    }
+  }
+
+  .importing-spinning {
+  }
+}
+
+.schedule-import-modal {
+  .dpl-modal-body {
+    > div {
+      padding: 24px !important;
+    }
+  }
+
+  .import-fail {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 16px;
+    color: rgb(255 59 48);
+    font-size: 72px;
+  }
+
+  .import-success {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 16px;
+    color: rgb(0 204 102);
+    font-size: 72px;
+  }
+
+  .import-error-wrap {
+    max-height: 400px;
+    overflow-y: auto;
+    width: 100%;
+
+    .import-error {
+      color: #333;
+      margin-top: 8px;
+      text-align: left;
+      max-width: 100%;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      font-size: 16px;
+
+      i {
+        color: rgb(255 59 48);
+        margin-right: 8px;
+        position: relative;
+        left: 2px;
+      }
+    }
+  }
+}

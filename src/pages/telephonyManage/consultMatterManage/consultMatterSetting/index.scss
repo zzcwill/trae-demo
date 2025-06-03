@@ -1,0 +1,65 @@
+.consult-event-config {
+  padding: 20px;
+
+  .table-wrap {
+    margin-top: 20px;
+  }
+
+  .dpl-table-body {
+    table {
+      table-layout: fixed;
+      width: 100% !important;
+    }
+  }
+
+  .dpl-table-tbody {
+    & > tr {
+      td {
+        &:first-child {
+          div {
+            display: inline-block !important;
+            position: relative;
+            top: 6px;
+            width: calc(100% - 30px);
+          }
+        }
+      }
+    }
+
+    tr.drop-over-downward td {
+      border-bottom: 2px dashed #1890ff;
+    }
+
+    tr.drop-over-upward td {
+      border-top: 2px dashed #1890ff;
+    }
+  }
+
+  .table-group-info {
+    &-title {
+      &::after {
+        content: ":";
+        padding: 0 5px;
+      }
+    }
+  }
+
+  .operation {
+    display: flex;
+
+    .item {
+      margin-right: 12px;
+      cursor: pointer;
+      color: #2c85d9;
+    }
+  }
+
+  .matter-name {
+    // width: 300px;
+    .matter-name-wrap {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}

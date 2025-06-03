@@ -1,0 +1,26 @@
+.online-chat-service-date {
+  width: 100%;
+
+  // padding-left: 10%;
+  .online-chat-service-date-list {
+    margin-bottom: 10px;
+
+    .item-box {
+      display: flex;
+      margin-bottom: 5px;
+    }
+  }
+
+  .online-chat-service-date-add {
+    .add-text {
+      text-align: center;
+      width: 175px;
+      height: 32px;
+      font-size: 14px;
+      border: 1px dashed #aaa;
+      line-height: 30px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+}

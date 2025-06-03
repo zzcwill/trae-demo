@@ -1,0 +1,51 @@
+.rule-config {
+  .add {
+    color: #39f;
+    cursor: pointer;
+  }
+
+  .list {
+    .item {
+      display: flex;
+      margin-bottom: 10px;
+      justify-content: flex-start;
+
+      .delete {
+        cursor: pointer;
+        color: #f50;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+.has-error {
+  .rule-config-item-select {
+    &.success {
+      .dpl-select-selection {
+        border-color: #d1d3d8 !important;
+      }
+
+      .dpl-select-arrow {
+        color: rgb(0 0 0 / 43%) !important;
+      }
+    }
+  }
+
+  .label-input {
+    &.error {
+      border-color: #f04134 !important;
+    }
+  }
+}
+
+.dpl-select-tree {
+  max-height: 300px;
+  overflow-y: auto;
+
+  // .dpl-select-switcher-icon {
+  //   &::before {
+  //     content: "";
+  //   }
+  // }
+}

@@ -1,0 +1,14 @@
+.card-label {
+  .label-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .label-item {
+    color: #999999;
+    font-size: 14px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    background-color: #e5f2ff;
+    border-radius: 10px;
+  }
+}

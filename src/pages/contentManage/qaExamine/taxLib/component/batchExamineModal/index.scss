@@ -1,0 +1,52 @@
+.batch-examine-modal {
+  max-height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .modal-text {
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 12px;
+  }
+
+  .form-box {
+    margin-top: 17px;
+  }
+
+  .submit-box {
+    text-align: center;
+    padding-bottom: 12px;
+
+    .space {
+      display: inline-block;
+      width: 40px;
+    }
+  }
+
+  .dpl-table-wrapper {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .dpl-table {
+    width: 100%;
+    height: inherit;
+  }
+
+  .dpl-table-content {
+    height: 100%;
+  }
+
+  .dpl-table-scroll {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dpl-table-body {
+    flex: 1;
+  }
+}

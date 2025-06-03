@@ -1,0 +1,73 @@
+.trainee-result-list {
+  .statistics-view {
+    height: 134px;
+    margin-bottom: 16px;
+    display: flex;
+    background-image: url("https://s.17win.com/snack/134/askone-manage-pc/%E8%AF%84%E5%88%86%E8%83%8C%E6%99%AF%E5%9B%BE.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    // background: #fffaf7;
+    // border-radius: 4px;
+
+    .bg-img {
+      height: 100%;
+      border-radius: 0 4px 4px 0;
+    }
+
+    .left-view {
+      padding: 20px 40px 20px 50px;
+
+      .value {
+        margin-bottom: 12px;
+
+        .score {
+          font-weight: 600;
+          font-size: 40px;
+          color: #333;
+          margin-right: 4px;
+          font-style: italic;
+        }
+
+        font-size: 16px;
+        color: #333;
+        font-weight: 500;
+      }
+    }
+
+    .right-view {
+      flex: 1;
+      margin: 28px 0 20px;
+      padding-left: 20px;
+      border-left: 1px solid #979797;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .label {
+      font-family: PingFangSC-Regular;
+      font-size: 16px;
+      color: #333;
+      line-height: 22px;
+      font-weight: 400;
+
+      .orange {
+        font-family: PingFangSC-Medium;
+        font-size: 16px;
+        color: #f63;
+        line-height: 22px;
+        font-weight: 500;
+      }
+    }
+
+    .margin-20 {
+      margin-bottom: 16px;
+    }
+  }
+
+  .finish-img {
+    width: 14px;
+    height: 14px;
+  }
+}

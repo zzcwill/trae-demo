@@ -1,0 +1,78 @@
+.group-monitor-box {
+  width: 100%;
+  height: 100%;
+  padding: 16px 20px;
+  background-color: #f4f6f9;
+  overflow: auto;
+
+  .main-box {
+    padding: 28px 15px;
+    background-color: #fff;
+
+    .app-search-box {
+      .dpl-form-item-control {
+        width: 240px;
+      }
+
+      .area-controller {
+        .dpl-form-item-control {
+          width: 260px;
+        }
+      }
+    }
+
+    .show-box {
+      font-family: MicrosoftYaHei;
+      font-size: 14px;
+      color: #333;
+      line-height: 20px;
+      padding-bottom: 16px;
+
+      .monitor-data-title {
+        display: inline-block;
+        padding-left: 20px;
+      }
+
+      .monitor-data-item {
+        display: inline-block;
+        line-height: 20px;
+        padding-right: 15px;
+
+        .item-color {
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          margin: 2px 5px 2px 2px;
+          vertical-align: top;
+        }
+      }
+    }
+
+    .call-group-table-box {
+      .red-color {
+        color: red;
+      }
+
+      .warning-color {
+        color: #ff9500;
+      }
+    }
+  }
+
+  .dpl-table-thead {
+    tr {
+      th {
+        height: 30px;
+      }
+    }
+  }
+
+  .dpl-table-tbody {
+    tr {
+      th {
+        height: 30px;
+      }
+    }
+  }
+}
+

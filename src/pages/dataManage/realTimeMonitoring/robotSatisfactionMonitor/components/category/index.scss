@@ -1,0 +1,30 @@
+.echarts-box {
+  width: 220px;
+  height: 210px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  border: 1px dashed #ccc;
+
+  .title {
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+  }
+
+  .warning {
+    height: 20px;
+    text-align: right;
+    margin-right: 10px;
+
+    .waring-img {
+      height: 100%;
+    }
+  }
+}
+
+.visibility {
+  visibility: hidden;
+  border: none;
+}

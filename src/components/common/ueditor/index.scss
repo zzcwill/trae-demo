@@ -1,0 +1,18 @@
+.__zhence-cut-line,
+.__shiwu-cut-line {
+  display: flex;
+
+  .text {
+    margin: 0 20px;
+  }
+
+  .cut-line {
+    flex: 1;
+    height: 1px;
+    border-top: 1px dashed black;
+  }
+}
+
+.edui-default .edui-box {
+  line-height: normal !important;
+}

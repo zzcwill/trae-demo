@@ -1,0 +1,49 @@
+.special-day-edit-modal {
+  .time-select {
+    .type {
+      display: flex;
+      align-items: center;
+      position: relative;
+      top: -4px;
+    }
+
+    .time {
+      .item {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .empty {
+    .dpl-input {
+      border: 1px solid #d1d3d8 !important;
+    }
+
+    .dpl-time-picker-input {
+      border: 1px solid #d1d3d8 !important;
+    }
+
+    .dpl-calendar-picker-icon::after {
+      color: #999;
+    }
+
+    .dpl-time-picker-icon::after {
+      color: #999;
+    }
+  }
+
+  .dpl-modal-body {
+    max-height: 70vh;
+    overflow: auto;
+  }
+
+  .group-view {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f2f2f2;
+    font-size: 13px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,24 @@
+.system-and-function-box {
+  .item-box {
+    display: flex;
+  }
+
+  .item-label {
+    font-size: 14px;
+    color: #333;
+    margin-right: 6px;
+    text-align: right;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .item-content {
+    flex: 1;
+    display: flex;
+  }
+}

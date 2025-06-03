@@ -1,0 +1,10 @@
+.landing-select-box {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+
+  .landing-type-select {
+    width: 100px;
+    flex: none;
+  }
+}

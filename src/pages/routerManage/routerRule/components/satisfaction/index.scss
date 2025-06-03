@@ -1,0 +1,56 @@
+/* stylelint-disable */
+// .satisfaction {
+
+
+// }
+
+.satisfaction-modal {
+  .box-line {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px dashed #ccc;
+  }
+
+  .box-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  } 
+
+  .dpl-modal-body {
+    max-height: 70vh;
+    overflow: auto;
+
+    .has-error .dpl-input,
+    .has-error .dpl-input:hover {
+      border-color: #c4c6cc;
+    }
+
+    .has-error > .dpl-input,
+    .has-error > .dpl-input:hover {
+      border-color: #ff3b30;
+    }
+
+    .has-error > .dpl-input:focus {
+      border-color: #ff3b30;
+      outline: 0;
+      box-shadow: 0 0 6px 0 rgb(255 59 48 / 70%);
+    }
+  }
+
+  .reason {
+    .item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .success {
+      border-color: #b3b5ba !important;
+
+      .dpl-input {
+        border-color: #b3b5ba !important;
+      }
+    }
+  }
+}

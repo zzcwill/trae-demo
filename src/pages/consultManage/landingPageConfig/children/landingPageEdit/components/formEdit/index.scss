@@ -1,0 +1,26 @@
+.landing-form-edit-box {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+
+  .landing-type-tip {
+    padding-left: 20px;
+    color: #f04134;
+  }
+
+  .button-box {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+
+    .button-item {
+      display: inline-block;
+    }
+
+    .line-box {
+      display: inline-block;
+      width: 20px;
+    }
+  }
+}

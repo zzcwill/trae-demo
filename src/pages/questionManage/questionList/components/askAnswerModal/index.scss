@@ -1,0 +1,48 @@
+.answer-modal {
+  .dpl-form-item-control {
+    font-size: 14px;
+  }
+
+  .question-view {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+
+    .normal-text {
+      font-size: 14px;
+      color: #333;
+
+      span {
+        color: rgb(0 0 0 / 65%);
+      }
+    }
+
+    .question-description {
+      white-space: pre-wrap;
+    }
+  }
+
+  .answer-view {
+    margin-top: 20px;
+
+    .detail-item-content {
+      .applyPictureQuestion,
+      .defualtConsultDetail,
+      .expertConsultList {
+        // color: #4c4c4c;
+        cursor: default;
+      }
+    }
+
+    .tag-item {
+      background: #e9ebf0;
+      border: 1px solid #d1d3d8;
+      padding: 2px 5px;
+      border-radius: 3px;
+    }
+
+    .tag-item + .tag-item {
+      margin-left: 5px;
+    }
+  }
+}

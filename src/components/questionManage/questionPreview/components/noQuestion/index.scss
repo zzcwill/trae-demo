@@ -1,0 +1,20 @@
+.my-question-no-question {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  flex-direction: column;
+
+  .tips {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #333;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+  }
+
+  .options {
+    margin-top: 12px;
+  }
+}

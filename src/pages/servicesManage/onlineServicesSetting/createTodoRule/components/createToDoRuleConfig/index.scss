@@ -1,0 +1,75 @@
+.rule-config {
+  .add {
+    color: #39f;
+    cursor: pointer;
+  }
+
+  .list {
+    .item {
+      display: flex;
+      margin-bottom: 10px;
+      justify-content: flex-start;
+
+      .delete {
+        width: 28px;
+        flex-shrink: 1;
+        cursor: pointer;
+        color: #f50;
+        line-height: 30px;
+        margin-left: 10px;
+      }
+    }
+
+    .list-out-box {
+      margin-left: 210px;
+      margin-bottom: 10px;
+
+      .name-list-context {
+        min-height: 98px;
+        max-height: 200px;
+        overflow-y: auto;
+      }
+    }
+  }
+}
+
+.dpl2-form-item-has-error,
+.has-error {
+  // .rule-config-item-select {
+  //   &.success {
+  //     .dpl-select-selection,
+  //     .dpl2-select-selector {
+  //       border-color: #d1d3d8 !important;
+
+  //       --dpl2-color-error-normal: #d1d3d8;
+  //     }
+
+  //     .dpl-select-arrow {
+  //       color: rgb(0 0 0 / 43%) !important;
+  //     }
+  //   }
+  // }
+
+  .label-common-input {
+    &.error {
+      border-color: #f04134 !important;
+    }
+  }
+
+  .name-list-box {
+    &.error {
+      border-color: #f04134 !important;
+    }
+  }
+}
+
+.dpl-select-tree {
+  max-height: 300px;
+  overflow-y: auto;
+
+  // .dpl-select-switcher-icon {
+  //   &::before {
+  //     content: "";
+  //   }
+  // }
+}

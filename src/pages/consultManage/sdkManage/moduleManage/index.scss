@@ -1,0 +1,48 @@
+.module-manage {
+  height: 100%;
+  overflow: auto;
+  padding: 20px;
+
+  .content {
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  .search-box {
+    background: #fff;
+    padding: 20px 0;
+    margin-bottom: 5px;
+
+    .search-button-box {
+      display: inline-block;
+
+      .line-box {
+        display: inline-block;
+        width: 10px;
+      }
+    }
+  }
+
+  .table-box {
+    background: #fff;
+    padding: 16px 20px 10px;
+
+    .table-btn {
+      margin-bottom: 10px;
+      display: flex;
+    }
+  }
+
+  .module-table-option-box {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+
+    .line-box {
+      display: inline-block;
+      margin: 0 5px;
+      height: 20px;
+    }
+  }
+}

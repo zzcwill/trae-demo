@@ -1,0 +1,75 @@
+.banner-manage-box {
+  height: 100%;
+  width: 100%;
+  min-width: 1060px;
+  overflow: auto;
+
+  .search-box {
+    margin: 16px;
+    background: #fff;
+    padding: 20px 40px 20px 0;
+
+    .search-button-box {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .search-button {
+      display: inline-block;
+    }
+
+    .line-box {
+      display: inline-block;
+      width: 20px;
+    }
+  }
+
+  .table-box {
+    background: #fff;
+    padding: 16px 20px;
+
+    .table-btn {
+      margin-bottom: 12px;
+      display: flex;
+    }
+
+    .pagination-wrap {
+      margin-top: 10px;
+
+      .dpl-pagination-wrapper {
+        float: none;
+      }
+    }
+  }
+
+  .banner-table-name {
+    text-decoration: underline;
+    color: #169bd5;
+    cursor: pointer;
+  }
+}
+
+.pagination-box {
+  height: 50px;
+  width: 100%;
+
+  .dpl-pagination-wrapper {
+    line-height: 40px;
+
+    .dpl-pagination-total-text {
+      line-height: 40px;
+    }
+  }
+
+  .dpl-pagination-jump-next {
+    &::after {
+      content: unset;
+    }
+  }
+
+  .dpl-pagination-jump-prev {
+    &::after {
+      content: unset;
+    }
+  }
+}

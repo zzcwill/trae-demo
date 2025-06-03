@@ -1,0 +1,105 @@
+.copy-rule {
+  padding: 20px;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 128px;
+  position: relative;
+  overflow: hidden;
+
+  .policy-config-box {
+    position: fixed;
+    top: 128px;
+  }
+
+  .rule-content {
+    margin-top: 108px;
+    max-height: calc(100% - 88px);
+    overflow-y: auto;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .card-contaier-content {
+    padding-left: 12px;
+  }
+
+  .not-required {
+    .dpl-form-explain {
+      display: none;
+    }
+
+    .has-error .dpl-select-selection {
+      border-color: #c4c6cc;
+    }
+  }
+
+  .form-area-row {
+    background-color: #eee;
+  }
+
+  .dpl-form {
+    height: 100%;
+  }
+
+  .virtual-list {
+    height: 100%;
+    overflow-y: auto;
+  }
+
+  .rule-form-list {
+    overflow: hidden;
+    height: calc(100% - 32px);
+  }
+
+  .tips {
+    padding-left: 20.83333333333%;
+    position: relative;
+    top: -20px;
+  }
+
+  .btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 48px;
+    left: calc(50% - 88px);
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .delete {
+    white-space: nowrap;
+  }
+
+  .not-required,
+  .required {
+    .is-validating.has-feedback::after {
+      content: unset;
+      display: none;
+    }
+
+    .has-feedback > .dpl-select .dpl-select-arrow {
+      right: 8px;
+    }
+
+    .dpl-select-selection__clear {
+      right: 8px !important;
+    }
+  }
+
+  .not-required {
+    .dpl-select-arrow {
+      color: unset !important;
+    }
+  }
+}

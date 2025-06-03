@@ -1,0 +1,31 @@
+.log-detail {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 5px;
+  border: 1px dashed #ccc;
+  line-height: 20px;
+  font-size: 13px;
+  margin: 5px 0;
+
+  .log-detail-item {
+    width: 25%;
+    flex: none;
+    padding: 0 5px;
+    display: flex;
+
+    .item-label {
+      flex: none;
+
+      &::after {
+        content: ":";
+        padding: 5px;
+      }
+    }
+
+    .item-value {
+      flex: 1;
+      white-space: pre-wrap;
+    }
+  }
+}

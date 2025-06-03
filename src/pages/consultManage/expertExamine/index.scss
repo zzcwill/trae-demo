@@ -1,0 +1,57 @@
+.expert-examine-box {
+  padding: 20px;
+  height: 100%;
+  overflow: auto;
+
+  .form-filter-wrap {
+    background: #fff;
+    padding: 20px 20px 0 10px;
+    position: relative;
+
+    .btn-group {
+      display: flex;
+      justify-content: flex-end;
+      padding-bottom: 20px;
+    }
+  }
+
+  .table-content {
+    background: #fff;
+    margin-top: 20px;
+    padding: 20px;
+
+    .page-wrap {
+      .dpl-pagination-wrapper {
+        float: none;
+      }
+    }
+
+    .btn-group {
+      display: flex;
+      align-items: center;
+
+      .total {
+        font-size: 14px;
+        color: #333;
+        margin-left: 20px;
+
+        span {
+          font-weight: bold;
+          color: #39f;
+        }
+      }
+    }
+
+    .expert-content {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 1124px;
+    }
+  }
+}
+
+.examine-modal {
+  width: 600px !important;
+}

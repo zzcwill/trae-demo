@@ -1,0 +1,58 @@
+.question-info {
+  padding: 20px;
+  background: #fff;
+
+  .resume {
+    font-size: 20px;
+    line-height: 26px;
+    color: #333;
+    font-weight: bold;
+    word-break: break-all;
+    letter-spacing: 0;
+    text-align: left;
+    margin-bottom: 12px;
+  }
+
+  .description {
+    font-size: 16px;
+    color: #666;
+    word-break: break-all;
+    letter-spacing: 0;
+    line-height: 21px;
+    margin-bottom: 12px;
+
+    .label {
+      &::after {
+        content: ":";
+        padding: 0 5px;
+      }
+    }
+  }
+
+  .image-list {
+    margin-bottom: 12px;
+  }
+
+  .operation {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+
+    &-left {
+      display: flex;
+      align-items: center;
+      font-family: MicrosoftYaHei;
+      font-size: 14px;
+      color: #999;
+      letter-spacing: 0;
+      text-align: left;
+      font-weight: 400;
+    }
+
+    &-right {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+}

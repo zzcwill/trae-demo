@@ -1,0 +1,34 @@
+.edit-operation-manage-modal-box {
+  .line-box {
+    display: inline-block;
+    width: 20px;
+  }
+
+  .button-box {
+    background: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+
+    .button-item {
+      display: inline-block;
+    }
+  }
+
+  .modal-select-type-input {
+    display: flex;
+
+    .modal-select-input {
+      flex: 1;
+      position: relative;
+    }
+
+    .modal-select-input-el-clear {
+      width: calc(100% - 30px) !important;
+    }
+
+    .modal-select-input-icon {
+      right: 6px !important;
+    }
+  }
+}

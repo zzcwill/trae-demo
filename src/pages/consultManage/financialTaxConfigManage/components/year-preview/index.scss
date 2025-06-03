@@ -1,0 +1,22 @@
+.year-preview {
+  padding-top: 0;
+
+  .app-search-box {
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-bottom: 8px !important;
+    background-color: transparent !important;
+
+    .dpl-form-item-control {
+      width: 300px;
+    }
+  }
+
+  .dpl-table-row {
+    background-color: transparent !important;
+
+    td {
+      background-color: transparent !important;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+/*可以在这里添加你自己的css*/
+
+.__zhence-cut-line, .__shiwu-cut-line {
+  margin: 0;
+  moz-user-select: -moz-none;
+  -moz-user-select: none;
+  -o-user-select:none;
+  -khtml-user-select:none;
+  -webkit-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+.__zhence-cut-line .img, .__shiwu-cut-line .img{
+  display: inline-block;
+  width: 16px;
+  position: relative;
+  top:2px;
+  margin-right: 4px;
+}
+.__zhence-cut-line .text, .__shiwu-cut-line .text{
+  display: inline-block;
+  font-size: 16px;
+  color: #B3B5BA;
+  margin: 0;
+}
+
+/*.__zhence-cut-line:after, .__shiwu-cut-line:after {
+  height: 1px;
+  flex: 1;
+  content: '';
+  border-top: 1px dashed black;
+  margin-left: 20px;
+}
+
+.__zhence-cut-line:before, .__shiwu-cut-line:before {
+  height: 1px;
+  flex: 1;
+  content: '';
+  border-top: 1px dashed black;
+  margin-right: 20px;
+}*/

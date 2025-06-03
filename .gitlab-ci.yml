@@ -1,0 +1,1 @@
+include: 'https://gitlab.dc.servyou-it.com/cigroup/remote-ci-config/-/raw/master/.gitlab-ci.yml'

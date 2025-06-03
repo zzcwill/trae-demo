@@ -1,0 +1,125 @@
+.home-page-component-box {
+  min-width: 1040px;
+
+  .button-box-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .edit-banner {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 20px 0;
+  }
+
+  .edit-banner-no-line {
+    padding: 0 16px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-top: unset;
+  }
+
+  .banner-item {
+    display: flex;
+    width: 100%;
+
+    .banner-item-label {
+      flex: none;
+      margin-top: 15px;
+      width: 40px;
+      font-size: 14px;
+      text-align: right;
+    }
+
+    .banner-image-content {
+      flex: 1;
+    }
+
+    .required {
+      color: #d9001ba5;
+    }
+  }
+
+  .edit-tax-manage {
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+  }
+
+  .edit-item-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  .button-box {
+    background: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+
+    .button-item {
+      display: inline-block;
+    }
+
+    .line-box {
+      display: inline-block;
+      width: 20px;
+    }
+  }
+
+  .edit-module-box {
+    padding: 0 16px;
+
+    .edit-item-title {
+      border-bottom: 1px solid #ccc;
+      padding: 16px 0;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .edit-module-item {
+      border-bottom: 1px dashed #ccc;
+      position: relative;
+
+      .module-item-close {
+        position: absolute;
+        right: 0;
+        top: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        color: #f00;
+      }
+
+      &:last-child {
+        border-bottom: unset;
+      }
+    }
+  }
+
+  .module-add-box {
+    margin: 10px 0;
+    text-align: center;
+
+    .module-add-button {
+      display: inline-block;
+      padding: 0 10px;
+      border: 1px dashed #ccc;
+      margin: 5px 10px 5px 0;
+      cursor: pointer;
+      text-align: center;
+      line-height: 28px;
+      width: 170px;
+
+      .line {
+        display: inline-block;
+        width: 10px;
+      }
+    }
+  }
+}
+
+.home-page-component-box-bottom {
+  padding-bottom: 50px;
+  position: relative;
+}

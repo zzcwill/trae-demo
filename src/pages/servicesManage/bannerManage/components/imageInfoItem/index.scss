@@ -1,0 +1,44 @@
+.image-info-item-box {
+  .image-info-item {
+    display: flex;
+
+    .image-info-item-label {
+      width: 80px;
+      line-height: 30px;
+    }
+
+    .image-info-item-context {
+      flex: 1;
+    }
+  }
+
+  .image-info-item-icon-box {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    line-height: 30px;
+
+    .image-info-item-icon {
+      cursor: pointer;
+    }
+  }
+
+  .line {
+    display: inline-block;
+    width: 20px;
+  }
+
+  .image-info-item-context-error {
+    .dpl-input {
+      border: solid 1px #f56c6c;
+    }
+  }
+
+  .imageInfo-error-message-box {
+    height: 18px;
+    color: #f56c6c;
+    line-height: 18px;
+    font-size: 12px;
+    text-align: left;
+  }
+}

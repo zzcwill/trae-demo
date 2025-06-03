@@ -1,0 +1,64 @@
+.global-window-page {
+  .dpl-form-item {
+    margin-bottom: 20px !important;
+  }
+
+  .dpl-form-item {
+    .success {
+      border-color: #b3b5ba !important;
+
+      .dpl-input {
+        border-color: #b3b5ba !important;
+      }
+    }
+  }
+
+  .advert-url-wrap {
+    display: flex;
+    align-items: center;
+
+    .dpl-input {
+      flex: 1;
+    }
+
+    .tips {
+      color: #999;
+      font-size: 12px;
+      margin-left: 10px;
+    }
+  }
+
+  .image-tips {
+    position: relative;
+
+    p {
+      position: absolute;
+      top: -82px;
+      left: 282px;
+      color: #999;
+      font-size: 12px;
+    }
+  }
+
+  .jump {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+    .input {
+      flex: 1;
+    }
+  }
+}
+
+.advert-upload-image-wrap {
+  position: relative;
+
+  .tips {
+    position: absolute;
+    top: 34px;
+    left: 128px;
+    font-size: 12px;
+    color: #999;
+  }
+}

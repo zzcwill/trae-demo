@@ -1,0 +1,148 @@
+.inquiry-modal {
+  .inquiry-content {
+    .content-title {
+      margin-top: 20px;
+      font-size: 16px;
+      color: #333;
+      line-height: 24px;
+      font-weight: 700;
+    }
+
+    .inquiry_offline-address {
+      line-height: 29px;
+      margin-left: 8px;
+      font-size: 14px;
+      color: #666;
+      font-weight: 400;
+    }
+
+    .company-select {
+      .dpl-select-selection--single {
+        min-height: 61px;
+
+        .inquiry-expert-select-item {
+          .inquiry-expert-tax {
+            word-wrap: normal;
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+
+    .inquiry-rights {
+      position: relative;
+      top: -8px;
+      font-size: 12px;
+      color: #666;
+      line-height: 18px;
+      font-weight: 400;
+
+      .bold {
+        padding: 0 4px;
+        font-size: 12px;
+        color: #ff8040;
+        line-height: 18px;
+        font-weight: 700;
+      }
+
+      .orange {
+        font-size: 12px;
+        color: #ff8040;
+        line-height: 18px;
+        font-weight: 700;
+      }
+    }
+
+    .inquiry-fill-inro {
+      font-size: 12px;
+      color: #666;
+      line-height: 18px;
+      font-weight: 400;
+      padding-bottom: 32px;
+    }
+
+    .inquiry-question-item {
+      display: flex;
+      align-items: center;
+
+      .inquiry-question-right-add {
+        color: #2c85d9;
+        cursor: pointer;
+      }
+
+      .inquiry-question-right-delete {
+        color: #ff3b30;
+        cursor: pointer;
+      }
+    }
+
+    .custom-phone {
+      input[type="number"]::-webkit-inner-spin-button,
+      input[type="number"]::-webkit-outer-spin-button {
+        appearance: none;
+        margin: 0;
+
+        // display: none;
+      }
+    }
+
+    .custom-popover-out {
+      margin-top: 8px;
+      width: 615px;
+      display: flex;
+      position: relative;
+      border: 1px solid #dfe1e6;
+      box-shadow: 0 1px 6px 0 rgb(127 132 146 / 45%);
+
+      .custom-popover-arrow {
+        position: absolute;
+        display: block;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 8px 7px;
+        border-top-width: 0;
+        left: 320px;
+        border-bottom-color: #dfe1e6;
+        top: -8px;
+
+        &::after {
+          position: absolute;
+          display: block;
+          width: 0;
+          height: 0;
+          border-color: transparent;
+          border-style: solid;
+          border-width: 8px 6px;
+          content: " ";
+          margin-left: -4px;
+          border-top-width: 0;
+          border-bottom-color: #fff;
+          margin-left: -6px;
+          top: 2px;
+        }
+      }
+
+      .custom-popover-content {
+        max-width: 583px;
+        padding: 8px 0 8px 16px;
+        font-size: 12px;
+        color: #666;
+        line-height: 18px;
+        font-weight: 400;
+      }
+
+      .icon-out {
+        padding: 8px;
+      }
+    }
+  }
+}
+
+.inquiry-expert-select-item {
+  .inquiry-expert-tax {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+  }
+}

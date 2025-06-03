@@ -1,0 +1,14 @@
+.back-top {
+  position: fixed;
+  right: 28px;
+  bottom: 48px;
+  width: 40px;
+  height: 40px;
+  background: url("./images//back-top.png") no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+}
+.back-top:hover{
+    background: url("./images//back-top-hover.png") no-repeat;
+    background-size: 100%;
+}

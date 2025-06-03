@@ -1,0 +1,84 @@
+.course-manage {
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  .center {
+    justify-content: center;
+
+    div {
+      margin: 0 6px;
+    }
+  }
+
+  .query-box {
+    margin: 16px 20px;
+    padding: 20px 20px 0 10px;
+    background-color: #fff;
+    position: relative;
+  }
+
+  .right {
+    text-align: right;
+    padding-bottom: 20px;
+  }
+
+  .search-button {
+    display: inline-block;
+  }
+
+  .line-box {
+    display: inline-block;
+    width: 8px;
+  }
+
+  .table-box {
+    background: #fff;
+    padding: 16px 20px 10px;
+
+    .table-btn {
+      margin-bottom: 10px;
+      display: flex;
+    }
+
+    .pagination-box {
+      padding: 10px 0 0;
+
+      .dpl-pagination-wrapper {
+        display: block;
+        margin-right: unset;
+        float: unset;
+      }
+    }
+
+    .course-option-box {
+      text-align: center;
+    }
+  }
+}
+
+.course-edit-modal {
+  padding-bottom: 0;
+
+  .dpl-modal-content {
+    height: 100%;
+    width: 100%;
+
+    .dpl-modal-body {
+      height: calc(100% - 48px);
+      padding: 0 0 0 20px;
+    }
+  }
+
+  .dpl-modal-header {
+    border-bottom-color: #d1d3d8;
+
+    .dpl-modal-title {
+      font-weight: bold;
+      font-family: MicrosoftYaHei;
+      font-size: 16px;
+      color: #333;
+    }
+  }
+}

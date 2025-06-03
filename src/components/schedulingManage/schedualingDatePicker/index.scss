@@ -1,0 +1,17 @@
+.schedualing-datepicker {
+  display: inline-block;
+  position: relative;
+
+  .dpl-btn-text {
+    padding: 0;
+  }
+
+  .dpl-calendar-footer {
+    padding: 0;
+  }
+
+  .dpl-calendar-footer-extra {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+}

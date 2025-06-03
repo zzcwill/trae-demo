@@ -1,0 +1,40 @@
+.special-day-manage {
+  padding: 20px;
+  height: 100%;
+  overflow: auto;
+
+  .btn-group {
+    background: #fff;
+    padding: 20px 20px 0;
+  }
+
+  .operation {
+    display: flex;
+    justify-content: center;
+
+    div {
+      color: #0e77ca;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+  }
+
+  .form-wrap {
+    background: #fff;
+    padding: 20px 20px 0;
+    margin-bottom: 20px;
+
+    .dpl-form-item {
+      margin-bottom: 18px;
+    }
+
+    .dora-uform-button-group {
+      display: inline-block;
+    }
+  }
+
+  .table-wrap {
+    padding: 20px;
+    background: #fff;
+  }
+}

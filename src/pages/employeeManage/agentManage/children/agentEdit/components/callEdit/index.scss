@@ -1,0 +1,49 @@
+.call-edit {
+  padding: 29px 55px 32px 10px;
+
+  .edit-item {
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #151515;
+    line-height: 30px;
+    margin-bottom: 15px;
+
+    .edit-item-label {
+      display: inline-block;
+      vertical-align: top;
+      text-align: right;
+      width: 90px;
+      margin-right: 10px;
+    }
+
+    .edit-item-context {
+      display: inline-block;
+      vertical-align: top;
+      width: calc(100% - 100px);
+    }
+
+    .help-context {
+      margin-left: 16px;
+      font-family: MicrosoftYaHei;
+      font-size: 14px;
+      color: #ccc;
+      line-height: 20px;
+    }
+
+    .context-components {
+      width: 100%;
+
+      .name-list-context {
+        min-height: 98px;
+      }
+    }
+
+    .dpl-select {
+      width: 100%;
+    }
+  }
+
+  .edit-required {
+    color: #ff8961;
+  }
+}

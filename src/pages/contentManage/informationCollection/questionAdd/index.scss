@@ -1,0 +1,49 @@
+.question-add {
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  .filter-box {
+    margin: 16px 20px;
+    padding: 20px 20px 20px 0;
+    background-color: #fff;
+    position: relative;
+
+    .btn-wrap {
+      position: absolute;
+      right: 20px;
+      bottom: 36px;
+    }
+  }
+
+  .table-box {
+    background: #fff;
+    padding: 16px 20px 10px;
+
+    .total-box {
+      font-size: 14px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .pagination-box {
+      .dpl-pagination-wrapper {
+        float: none;
+      }
+    }
+  }
+
+  .card-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .icon {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
+  }
+}

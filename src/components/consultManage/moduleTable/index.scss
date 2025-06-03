@@ -1,0 +1,67 @@
+.brand-table-box {
+  width: 100%;
+
+  .base-table-data-box {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 8px;
+
+    .table-data-box {
+      flex: 1;
+      overflow: hidden;
+    }
+
+    .course-option-box {
+      // flex: none;
+    }
+
+    .table-item {
+      display: flex;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .table-head {
+      font-weight: bold;
+
+      .table-head-title {
+        padding: 6px 8px;
+        flex: auto;
+      }
+
+      .table-head-title-center {
+        text-align: center;
+      }
+
+      .table-body-item-no-flex {
+        flex: none;
+      }
+    }
+
+    .table-body {
+      color: #888;
+      line-height: 30px;
+
+      .table-body-item {
+        padding: 6px 8px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        flex: auto;
+      }
+
+      .table-body-item-center {
+        text-align: center;
+      }
+
+      .table-body-item-no-flex {
+        flex: none;
+      }
+    }
+  }
+
+  .extra-table-data-box {
+    width: 100%;
+  }
+}

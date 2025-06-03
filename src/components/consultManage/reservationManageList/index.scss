@@ -1,0 +1,136 @@
+.reservation-manage-list-box {
+  padding: 20px;
+  height: 100%;
+  overflow: auto;
+
+  .content-box {
+    overflow: auto;
+    min-width: 1164px;
+  }
+
+  .form-filter-wrap {
+    background: #fff;
+    padding: 20px 20px 0 10px;
+    position: relative;
+
+    .btn-group {
+      display: flex;
+      justify-content: flex-end;
+      padding-bottom: 20px;
+    }
+  }
+
+  .table-content {
+    background: #fff;
+    margin-top: 20px;
+    padding: 20px;
+
+    .page-wrap {
+      .dpl-pagination-wrapper {
+        float: none;
+      }
+    }
+
+    .btn-group {
+      display: flex;
+      align-items: center;
+
+      .total {
+        font-size: 14px;
+        color: #333;
+        margin-left: 20px;
+
+        span {
+          font-weight: bold;
+          color: #39f;
+        }
+      }
+    }
+
+    .expert-content {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      margin-top: 20px;
+      width: 1124px;
+    }
+  }
+}
+
+.area-select-box {
+  .warning-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 14px 10px;
+    background-color: #fffbe6;
+    border: 1px solid #ffe58f;
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+    .icon-box {
+      padding: 0 10px;
+
+      .icon {
+        width: 20px;
+        height: 20px;
+        background-color: #faad14;
+        border-radius: 50%;
+
+        &::before {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          content: "!";
+          color: #fff;
+        }
+      }
+    }
+
+    .warning-text {
+      font-size: 14px;
+      line-height: 22px;
+      font-weight: 400;
+    }
+  }
+
+  .content-box {
+    .item {
+      display: flex;
+
+      .label {
+        flex: none;
+        width: 80px;
+        font-size: 14px;
+        line-height: 30px;
+
+        &::after {
+          content: ":";
+          padding: 0 5px;
+        }
+      }
+
+      .content {
+        flex: 1;
+
+        .select-item {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .button-box {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+
+    .line-box {
+      display: inline-block;
+      margin: 0 5px;
+      height: 20px;
+    }
+  }
+}

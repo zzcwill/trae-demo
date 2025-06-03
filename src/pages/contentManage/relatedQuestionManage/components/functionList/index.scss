@@ -1,0 +1,39 @@
+.function-list-box {
+  display: flex;
+  width: 100%;
+
+  .function-list-input {
+    flex: 1;
+  }
+}
+
+.system-function-select-modal {
+  .function-list-modal-box {
+    height: 280px;
+    overflow: auto;
+    margin-top: 10px;
+
+    .function-list-checkbox-item {
+      margin-top: 10px;
+      margin-left: 10px;
+      width: 80%;
+      white-space: nowrap;
+    }
+  }
+
+  .button-box {
+    background: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+
+    .button-item {
+      display: inline-block;
+    }
+
+    .line-box {
+      display: inline-block;
+      width: 20px;
+    }
+  }
+}

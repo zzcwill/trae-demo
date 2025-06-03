@@ -1,0 +1,71 @@
+.email-manage {
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  .query-box {
+    margin: 16px;
+    background: #fff;
+    padding: 20px 40px 20px 0;
+
+    .center {
+      text-align: center;
+      padding-bottom: 10px;
+    }
+
+    .search-button {
+      display: inline-block;
+    }
+
+    .line-box {
+      display: inline-block;
+      width: 20px;
+    }
+  }
+
+  .table-box {
+    background: #fff;
+    padding: 16px 20px;
+
+    .table-btn {
+      padding-bottom: 10px;
+    }
+
+    .email-table {
+      height: calc(100% - 180px);
+    }
+
+    .template-name {
+      color: #2c85d9;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .attachment-link {
+      color: #2c85d9;
+      text-decoration: underline;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      cursor: pointer;
+
+      &:active {
+        color: #8d2895;
+      }
+    }
+
+    .pagination-box {
+      margin-top: 10px;
+
+      .dpl-pagination-wrapper {
+        float: none;
+      }
+    }
+  }
+}
+
+.email-edit-modal {
+  width: 80% !important;
+  max-width: 1080px;
+}

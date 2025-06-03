@@ -1,0 +1,27 @@
+.reservation-time-box {
+  width: 100%;
+
+  .reservation-time-list {
+    margin-bottom: 10px;
+
+    .item-box {
+      display: flex;
+      margin-bottom: 5px;
+    }
+  }
+
+  .reservation-time-add {
+    padding-left: 200px;
+
+    .add-text {
+      text-align: center;
+      width: 175px;
+      height: 24px;
+      font-size: 14px;
+      border: 1px dashed #aaa;
+      line-height: 22px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+}

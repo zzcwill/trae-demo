@@ -1,0 +1,127 @@
+.answer-detail {
+  height: 100%;
+  overflow: auto;
+  position: relative;
+}
+
+.add-answer {
+  padding: 20px;
+  background: #fff;
+
+  .question-view {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 15px;
+
+    .recommend-view {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+
+      .label {
+        color: #333;
+        font-size: 14px;
+        font-weight: 500;
+        display: inline-block;
+      }
+    }
+
+    .question-description {
+      white-space: pre-wrap;
+    }
+  }
+
+  .answer-view {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+
+    // 富文本样式
+    .detail-item-content {
+      font-size: 14px;
+      color: #333;
+      width: 100%;
+
+      // height: 300px;
+      word-break: break-all;
+      background: #fff;
+      border: 1px solid #d1d3d8;
+      border-radius: 3px;
+      overflow: auto;
+
+      &::-webkit-scrollbar {
+        width: 5px; /* 高宽分别对应横竖滚动条的尺寸 */
+        height: 5px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        /* 滚动条里面小方块 */
+        border-radius: 10px;
+
+        //   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+        background: #c1c1c1;
+      }
+
+      &::-webkit-scrollbar-track {
+        /* 滚动条里面轨道 */
+        // -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        background: #ededed;
+      }
+
+      .applyPictureQuestion,
+      .defualtConsultDetail,
+      .expertConsultList {
+        // color: #4c4c4c;
+        cursor: default;
+      }
+    }
+  }
+
+  .normal-text {
+    font-size: 14px;
+    color: #333;
+
+    span {
+      color: rgb(0 0 0 / 65%);
+    }
+  }
+
+  .click-text {
+    color: #108ee9 !important;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .dpl-form-item-control {
+    font-size: 14px;
+  }
+}
+
+.answer-preview {
+  padding: 20px;
+  background: #fff;
+  position: fixed;
+  left: 195px;
+  right: 0;
+  top: 61px;
+  bottom: 0;
+  z-index: 1001;
+  overflow-y: scroll;
+
+  .preview-box {
+    margin-top: 20px;
+    width: 100%;
+
+    // height: 600px;
+    // overflow: auto;
+    border: 1px solid #999;
+
+    // border-radius: 5px;
+    .title {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  }
+}

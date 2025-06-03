@@ -1,0 +1,14 @@
+.man-machine {
+  .guess-question {
+    .tips {
+      display: flex;
+      justify-content: space-between;
+      color: #333;
+
+      span {
+        font-size: 12px;
+        color: #999;
+      }
+    }
+  }
+}

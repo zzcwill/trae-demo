@@ -1,0 +1,39 @@
+.module-config-box {
+  padding: 10px 5px;
+
+  .config-item-line {
+    display: flex;
+    padding: 5px 0;
+
+    .config-item-label {
+      flex: none;
+    }
+
+    .config-item-value {
+      flex: 1;
+    }
+  }
+
+  .config-item-label {
+    line-height: 30px;
+    font-size: 14px;
+    padding-right: 10px;
+  }
+
+  .is-required {
+    &::before {
+      content: "*";
+      color: #f00;
+      font-size: 14px;
+      line-height: 30px;
+      vertical-align: middle;
+      padding: 0 5px;
+    }
+  }
+
+  .add-image-content {
+    .add-image-option {
+      font-size: 14px;
+    }
+  }
+}

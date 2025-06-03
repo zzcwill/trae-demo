@@ -1,0 +1,39 @@
+.profession-box {
+  padding: 20px;
+
+  .breadCrumb {
+    display: flex;
+    margin-bottom: 10px;
+
+    span {
+      margin: 0 8px;
+    }
+
+    .item {
+      cursor: pointer;
+    }
+  }
+
+  .category-item {
+    cursor: pointer;
+    color: #39f;
+  }
+
+  .operation {
+    display: flex;
+
+    span {
+      margin-right: 10px;
+      color: #39f;
+      cursor: pointer;
+
+      &.red {
+        color: red;
+      }
+    }
+  }
+
+  .profession-table {
+    margin-top: 10px;
+  }
+}

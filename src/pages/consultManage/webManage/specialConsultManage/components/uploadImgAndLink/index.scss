@@ -1,0 +1,18 @@
+.upload-img-box {
+  display: flex;
+
+  .option {
+    flex: 1;
+    display: flex;
+
+    .label {
+      width: 120px;
+      flex: none;
+      text-align: right;
+    }
+
+    .content {
+      flex: 1;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.feedback-box {
+  .feedback-item-box {
+    .item-option {
+      margin-bottom: 10px;
+    }
+
+    .question-custom { //这边逻辑要完善
+      // .has-error .dpl-input, .has-error .dpl-input:hover {
+      //     border-color: #FF3B30;
+      // }
+
+      //   .has-error > .dpl-input, .has-error > .dpl-input:hover {
+      //     border-color: #FF3B30;
+      //   }
+    }
+
+    .option-form {
+      background-color: #f3f3f3;
+      padding-top: 10px;
+
+      .dpl-switch {
+        &.dpl-switch-checked {
+          &.dpl-switch-disabled {
+            background: #b4d9fb;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.button-edit-box {
+  height: 100%;
+  overflow: auto;
+  padding: 10px;
+
+  .content {
+    background-color: #fff;
+    padding: 10px;
+  }
+
+  .header-box {
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .form-box {
+    width: 100%;
+    padding: 10px 0;
+    background: #fff;
+  }
+
+  .option-box {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+
+    .line-box {
+      display: inline-block;
+      margin: 0 5px;
+      height: 20px;
+    }
+  }
+}

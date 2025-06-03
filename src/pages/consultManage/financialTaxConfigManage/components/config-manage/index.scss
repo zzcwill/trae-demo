@@ -1,0 +1,31 @@
+.config-manage {
+  .app-search-box {
+    .dpl-form-item-control {
+      width: 300px;
+    }
+  }
+
+  .dpl-table-fixed-right {
+    height: calc(100% - 17px);
+  }
+
+  .dpl-table-body-outer,
+  .dpl-table-body-inner,
+  .dpl-table-fixed {
+    height: 100%;
+  }
+
+  .option-button-list {
+    .line {
+      color: #2c85d9;
+      margin: 0 4px;
+      display: inline-block;
+    }
+  }
+
+  .option-button {
+    &::before {
+      content: unset !important;
+    }
+  }
+}

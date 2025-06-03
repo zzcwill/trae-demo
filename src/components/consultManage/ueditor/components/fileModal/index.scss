@@ -1,0 +1,67 @@
+.file-modal {
+  .file-list {
+    max-height: 40vh;
+    overflow: auto;
+    margin-top: 20px;
+
+    .item {
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+
+      &:hover {
+        background-color: #e6f7ff;
+      }
+
+      p {
+        margin: 0;
+        color: rgb(44 133 217);
+        text-decoration: none;
+        background-color: transparent;
+        outline: none;
+        cursor: pointer;
+        margin-right: 15px;
+        flex: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+        &.error {
+          color: #f5222d;
+        }
+      }
+
+      .right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .tips {
+          color: #f5222d;
+        }
+
+        .close {
+          margin-left: 4px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+
+          &::before {
+            content: "\e633";
+            display: block;
+            font-family: anticon !important;
+            position: relative;
+            top: 2px;
+          }
+        }
+      }
+    }
+  }
+
+  .warn-tips {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #999;
+  }
+}

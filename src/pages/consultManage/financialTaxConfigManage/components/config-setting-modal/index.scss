@@ -1,0 +1,40 @@
+.config-setting-modal {
+  .container-title {
+    border-left: 4px solid #f63;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 8px;
+    margin-bottom: 16px;
+  }
+
+  .row-parent-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    .dpl-form-item {
+      flex: 1;
+    }
+  }
+
+  .sub-title {
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+}
+
+.error-message-modal {
+  width: auto !important;
+  max-width: 1024px;
+
+  .dpl-btn-two-chinese-chars:nth-child(2) {
+    display: none;
+  }
+
+  .dpl-modal-body {
+    max-height: 800px;
+    overflow-y: auto;
+  }
+}

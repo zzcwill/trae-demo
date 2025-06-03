@@ -1,0 +1,14 @@
+.check-box-choice-input {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  .check-box-choice-input-item {
+    margin-right: 6px;
+    margin-bottom: 6px;
+  }
+
+  .choose-info-input {
+    margin: 0 6px;
+  }
+}

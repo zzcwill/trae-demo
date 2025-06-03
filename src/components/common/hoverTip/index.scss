@@ -1,0 +1,22 @@
+.hover-tip {
+  display: flex;
+  align-items: center;
+
+  .tip-title {
+    line-height: 22px;
+  }
+
+  .tip-img {
+    padding: 4px;
+    width: 22px;
+    height: 22px;
+  }
+}
+
+.hover-tip-pop {
+  .hover-tip-pop-content {
+    max-height: 191px;
+    max-width: 340px;
+    overflow-y: auto;
+  }
+}

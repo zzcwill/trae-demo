@@ -1,0 +1,69 @@
+.add-resource-pool {
+  height: 100%;
+  overflow: auto;
+  background: #fff;
+  padding: 32px 32px 70px;
+
+  .dpl-message-has-close-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .dpl-message-has-close-icon {
+      position: relative;
+    }
+
+    .dpl-message-notice-close {
+      position: absolute;
+      right: 4px;
+      top: 12px;
+    }
+  }
+
+  .btn-group {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .dpl-row {
+    margin-bottom: 8px;
+  }
+
+  .dpl-tabs-tabpane {
+    padding: 20px;
+  }
+
+  .box-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .dpl-btn-text {
+    padding-left: 0;
+  }
+
+  .box-line {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px dashed #ccc;
+  }
+
+  .dpl-divider-horizontal {
+    height: 1px !important;
+  }
+
+  .inline-component {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: 8px;
+    margin-left: 8px;
+  }
+}

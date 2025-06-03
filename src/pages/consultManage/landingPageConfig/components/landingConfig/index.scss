@@ -1,0 +1,76 @@
+.landing-config-box {
+  .search-box {
+    margin-bottom: 10px;
+
+    .dpl-form-item {
+      margin-bottom: 5px;
+    }
+
+    .dora-uform-button-group {
+      display: inline-block;
+      margin-bottom: 5px;
+    }
+  }
+
+  .landing-list-box {
+    padding: 16px 0 0;
+
+    .landing-option-box {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0 5px;
+
+      .landing-option-item {
+        padding: 0 3px;
+        color: #39f;
+        font-size: 14px;
+        cursor: pointer;
+      }
+
+      .landing-option-item-disabled {
+        cursor: not-allowed;
+        color: #ccc;
+      }
+
+      .landing-option-line {
+        display: inline-block;
+        margin: 0 5px;
+        height: 20px;
+        border-right: 1px solid #ccc;
+      }
+    }
+  }
+
+  .pagination-box {
+    height: 50px;
+    padding: 0 16px;
+    width: 100%;
+    background-color: #fff;
+
+    .dpl-pagination-wrapper {
+      line-height: 40px;
+      float: unset;
+
+      .dpl-pagination-total-text {
+        line-height: 40px;
+      }
+    }
+
+    .dpl-pagination {
+      text-align: center;
+    }
+
+    .dpl-pagination-jump-next {
+      &::after {
+        content: unset;
+      }
+    }
+
+    .dpl-pagination-jump-prev {
+      &::after {
+        content: unset;
+      }
+    }
+  }
+}

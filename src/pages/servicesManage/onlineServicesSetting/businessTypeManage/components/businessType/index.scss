@@ -1,0 +1,56 @@
+.business-type-box {
+  width: 100%;
+  height: 450px;
+  padding: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  .table-btn {
+    margin-bottom: 10px;
+    display: flex;
+  }
+
+  .business-table {
+    .option-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      span {
+        color: #39f;
+        cursor: pointer;
+      }
+
+      .button-line {
+        display: inline-block;
+        width: 10px;
+      }
+    }
+  }
+
+  .pagination-box {
+    padding: 10px 0 0;
+
+    .dpl-pagination-wrapper {
+      display: block;
+      margin-right: unset;
+      float: unset;
+    }
+  }
+}
+
+.business-add {
+  width: 100%;
+
+  .button-box {
+    background: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+
+    .button-item {
+      display: inline-block;
+    }
+  }
+}

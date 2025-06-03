@@ -1,0 +1,27 @@
+.card-time {
+  display: flex;
+  align-items: center;
+  color: #3F3F3F;
+  .image{
+    width: 12px;
+    height: 10px;
+    margin-top: 4px;
+  }
+
+  .userName {
+    color: #999999;
+    font-weight: bold;
+   // color: #2C85D9;
+    padding:  0 4px;
+  }
+  .des{
+    margin-right: 4px;
+  }
+  .time,
+  .des {
+    color: #a9a9a9;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 17px;
+  }
+}

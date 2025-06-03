@@ -1,0 +1,119 @@
+.work-time-manage {
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  min-width: 900px;
+  overflow: auto;
+
+  .form-wrap {
+    background: #fff;
+    padding: 20px 20px 16px;
+    margin-bottom: 20px;
+
+    .dpl-form-item {
+      margin-bottom: 18px;
+    }
+
+    .dora-uform-button-group {
+      display: inline-block;
+
+      .button-line-box {
+        display: inline-block;
+        width: 20px;
+      }
+    }
+  }
+
+  .table-box {
+    background: #fff;
+    padding: 16px 20px;
+
+    .table-btn {
+      margin-bottom: 12px;
+      display: flex;
+    }
+
+    .button-line-box {
+      display: inline-block;
+      width: 20px;
+    }
+
+    .table-option-box {
+      .option-button {
+        padding: 0 5px;
+        font-family: MicrosoftYaHei;
+        font-size: 14px;
+        line-height: 20px;
+        color: #2c85d9;
+        cursor: pointer;
+      }
+    }
+
+    .day-time-item {
+      padding: 0 5px;
+    }
+
+    .dpl-checkbox-indeterminate {
+      .dpl-checkbox-inner {
+        &::after {
+          left: 3px;
+          top: 3px;
+          width: 10px;
+          height: 10px;
+        }
+      }
+    }
+  }
+
+  .pagination-box {
+    height: 50px;
+    width: 100%;
+
+    .dpl-pagination-wrapper {
+      line-height: 40px;
+
+      .dpl-pagination-total-text {
+        line-height: 40px;
+      }
+    }
+
+    .dpl-pagination-jump-next {
+      &::after {
+        content: unset;
+      }
+    }
+
+    .dpl-pagination-jump-prev {
+      &::after {
+        content: unset;
+      }
+    }
+  }
+}
+
+.work-time-modal {
+  .dpl-modal-body {
+    max-height: 80vh;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      width: 8px; /* 高宽分别对应横竖滚动条的尺寸 */
+      height: 8px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      /* 滚动条里面小方块 */
+      border-radius: 10px;
+
+      //   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+      background: #b1b1b1;
+    }
+
+    &::-webkit-scrollbar-track {
+      /* 滚动条里面轨道 */
+      //   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      background: #ededed;
+    }
+  }
+}

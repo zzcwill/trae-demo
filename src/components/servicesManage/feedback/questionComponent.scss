@@ -1,0 +1,8 @@
+.services-question-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+
+  .answer-item + .answer-item {
+    margin-top: 5px;
+  }
+}

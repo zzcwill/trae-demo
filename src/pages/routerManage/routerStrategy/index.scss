@@ -1,0 +1,51 @@
+.router-strategy {
+  padding: 20px;
+  height: 100%;
+  overflow: auto;
+
+  .btn-wrap {
+    background: #fff;
+    padding: 20px 0 0 20px;
+  }
+
+  .dpl-pagination-jump-prev {
+    &::after {
+      display: none !important;
+    }
+  }
+
+  .form-wrap {
+    background: #fff;
+    padding: 20px 20px 0;
+    margin-bottom: 20px;
+
+    .dpl-form-item-control {
+      width: 300px;
+    }
+
+    .dpl-form-item {
+      margin-bottom: 18px;
+    }
+
+    .dora-uform-button-group {
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .table-wrap {
+    padding: 20px;
+    background: #fff;
+  }
+
+  .operator {
+    display: flex;
+    color: #0e77ca;
+    justify-content: center;
+
+    span {
+      cursor: pointer;
+      margin-right: 10px;
+    }
+  }
+}

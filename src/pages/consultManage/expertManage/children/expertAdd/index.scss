@@ -1,0 +1,37 @@
+.expert-add {
+  padding: 20px;
+  background: #fff;
+  color: #333;
+  overflow: auto;
+  height: 100%;
+
+  .title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .form {
+    margin-top: 30px;
+    width: 95%;
+
+    .online-chat-service-time {
+      .dpl-col-23 {
+        margin-left: 4%;
+      }
+    }
+  }
+
+  .btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dpl-select-tree-dropdown {
+    max-height: 400px !important;
+  }
+
+  .dpl-select-tree {
+    line-height: 1.5;
+  }
+}

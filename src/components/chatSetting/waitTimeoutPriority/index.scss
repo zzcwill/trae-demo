@@ -1,0 +1,19 @@
+.wait-timeout-priority {
+    .success {
+        border-color: #b3b5ba !important;
+
+        .dpl-input {
+        border-color: #b3b5ba !important;
+        }
+    }
+    
+    .dpl-input-number {
+    margin: 0 10px;
+    }
+
+    .flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    }
+}

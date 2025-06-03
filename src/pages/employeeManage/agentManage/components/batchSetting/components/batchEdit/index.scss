@@ -1,0 +1,82 @@
+.batch-edit-box {
+  .edit-item {
+    width: 100%;
+    padding-bottom: 16px;
+
+    .item-label {
+      display: inline-block;
+      vertical-align: top;
+      width: 80px;
+      margin-right: 8px;
+      text-align: right;
+    }
+
+    .item-context {
+      display: inline-block;
+      vertical-align: top;
+      width: calc(100% - 90px);
+      text-align: left;
+
+      .operation-select {
+        width: 100%;
+      }
+
+      .context-components {
+        width: 100%;
+
+        .name-list-context {
+          height: 98px;
+        }
+
+        .select-box-context {
+          height: 98px;
+          overflow: auto;
+          margin-right: unset !important;
+
+          &::-webkit-scrollbar {
+            width: 8px; /* 高宽分别对应横竖滚动条的尺寸 */
+            height: 8px;
+          }
+
+          &::-webkit-scrollbar-thumb {
+            /* 滚动条里面小方块 */
+            border-radius: 10px;
+
+            //   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+            background: #b1b1b1;
+          }
+
+          &::-webkit-scrollbar-track {
+            /* 滚动条里面轨道 */
+            //   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            background: #ededed;
+          }
+        }
+
+        .dpl-select-selection__placeholder {
+          top: 12px;
+        }
+      }
+    }
+  }
+
+  .message-required {
+    color: #ff8961;
+  }
+
+  .button-box {
+    bottom: 12px;
+    width: 100%;
+    text-align: center;
+
+    .button-item {
+      display: inline-block;
+    }
+
+    .line-box {
+      display: inline-block;
+      width: 20px;
+    }
+  }
+}
